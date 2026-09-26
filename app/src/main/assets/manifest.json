@@ -1,0 +1,10 @@
+{
+  "name": "Personal CFO",
+  "short_name": "Personal CFO",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#0b1220",
+  "orientation": "portrait",
+  "description": "Offline personal finance tracker without AI."
+}
