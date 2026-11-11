@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#0b1220"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="manifest" href="manifest.json"><title>Personal CFO Mobile v20</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#0b1220"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="manifest" href="manifest.json"><title>Personal CFO Mobile v2.8.3</title>
 <style>
-:root{--bg:#f5f7fb;--card:#fff;--ink:#101828;--muted:#667085;--line:#e7eaf0;--brand:#4f46e5;--brand2:#3730a3;--green:#079455;--red:#d92d20;--nav:#ffffffee;--safe:env(safe-area-inset-bottom,0px)}*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-tap-highlight-color:transparent}body{min-height:100vh;padding-bottom:calc(76px + var(--safe))}.top{position:sticky;top:0;z-index:10;background:#f5f7fbea;backdrop-filter:blur(14px);padding:calc(12px + env(safe-area-inset-top,0px)) 16px 12px;border-bottom:1px solid #e9ecf2}.toprow{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;font-size:20px;letter-spacing:-.4px}.sub{font-size:12px;color:var(--muted);margin-top:2px}.iconbtn{border:0;background:#fff;width:42px;height:42px;border-radius:14px;box-shadow:0 1px 3px #10182812;font-size:20px}.page{padding:16px;max-width:640px;margin:auto}.hero{background:linear-gradient(135deg,#111827,#273449);color:white;border-radius:24px;padding:20px;box-shadow:0 10px 30px #11182720}.label{font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:.72}.money{font-size:34px;font-weight:800;margin:6px 0 16px;letter-spacing:-1px}.heroGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.mini{background:#ffffff12;border:1px solid #ffffff14;border-radius:14px;padding:10px}.mini b{display:block;font-size:14px;margin-top:3px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px}.stat{font-size:22px;font-weight:800;margin-top:5px}.income{color:var(--green)}.expense{color:var(--red)}h1{font-size:24px;margin:4px 0 14px;letter-spacing:-.5px}.sectionTitle{font-weight:800;margin:20px 0 10px}.row{display:flex;justify-content:space-between;align-items:center;gap:10px}.muted{color:var(--muted);font-size:13px}.tx{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.tx:last-child{border-bottom:0}.dot{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#eef2ff}.txmain{flex:1;min-width:0}.txname{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.txmeta{font-size:12px;color:var(--muted);margin-top:3px}.amount{font-weight:800;white-space:nowrap}.btn{border:0;border-radius:14px;padding:12px 15px;font-weight:750;background:var(--brand);color:white}.btn.secondary{background:#eef2ff;color:#3730a3}.btn.danger{background:#fee4e2;color:#b42318}.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.actions .btn:last-child:nth-child(3){grid-column:1/-1}.btn.block{width:100%}.fab{position:fixed;right:18px;bottom:calc(78px + var(--safe));z-index:12;width:58px;height:58px;border:0;border-radius:20px;background:var(--brand);color:#fff;font-size:28px;box-shadow:0 10px 25px #4f46e555}.nav{position:fixed;left:0;right:0;bottom:0;z-index:11;background:var(--nav);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding-bottom:var(--safe)}.navin{height:64px;max-width:640px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr)}.nav button{border:0;background:none;color:#667085;font-size:10px;font-weight:700}.nav button span{display:block;font-size:22px;line-height:25px;margin-bottom:2px}.nav button.active{color:var(--brand)}.empty{text-align:center;padding:30px 15px;color:var(--muted)}.progress{height:8px;background:#edf0f5;border-radius:99px;overflow:hidden;margin-top:10px}.progress i{display:block;height:100%;background:var(--brand);border-radius:99px}.sheet{position:fixed;inset:0;z-index:30;background:#0006;display:none;align-items:flex-end}.sheet.open{display:flex}.sheetbox{background:var(--card);width:100%;max-width:640px;margin:auto auto 0;border-radius:26px 26px 0 0;padding:18px 16px calc(20px + var(--safe));max-height:92vh;overflow:auto}.handle{width:44px;height:5px;background:#d0d5dd;border-radius:99px;margin:0 auto 15px}.sheet h2{margin:4px 0 15px}.field{margin:11px 0}.field label{display:block;font-size:12px;color:var(--muted);font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;height:48px;border:1px solid #d8dde7;border-radius:14px;padding:0 13px;font-size:16px;background:#fff;outline:none}.field input:focus,.field select:focus{border-color:#818cf8;box-shadow:0 0 0 3px #6366f11a}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#f1f3f7;padding:5px;border-radius:14px}.seg button{border:0;border-radius:10px;padding:10px;background:transparent;font-weight:800}.seg button.active{background:#fff;box-shadow:0 1px 4px #10182814;color:var(--brand)}.toast{position:fixed;left:16px;right:16px;bottom:calc(86px + var(--safe));z-index:50;background:#101828;color:#fff;border-radius:14px;padding:13px 15px;display:none;font-size:14px}.toast.show{display:block}.dangerText{color:var(--red)}
+:root{--bg:#f5f7fb;--card:#fff;--ink:#101828;--muted:#667085;--line:#e7eaf0;--brand:#4f46e5;--brand2:#3730a3;--green:#079455;--red:#d92d20;--nav:#ffffffee;--safe:env(safe-area-inset-bottom,0px)}*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-tap-highlight-color:transparent}body{min-height:100vh;padding-bottom:calc(76px + var(--safe))}.top{position:sticky;top:0;z-index:10;background:#f5f7fbea;backdrop-filter:blur(14px);padding:calc(12px + env(safe-area-inset-top,0px)) 16px 12px;border-bottom:1px solid #e9ecf2}.toprow{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;font-size:20px;letter-spacing:-.4px}.sub{font-size:12px;color:var(--muted);margin-top:2px}.iconbtn{border:0;background:#fff;width:42px;height:42px;border-radius:14px;box-shadow:0 1px 3px #10182812;font-size:20px}.page{padding:16px;max-width:640px;margin:auto}.hero{background:linear-gradient(135deg,#111827,#273449);color:white;border-radius:24px;padding:20px;box-shadow:0 10px 30px #11182720}.label{font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:.72}.money{font-size:34px;font-weight:800;margin:6px 0 16px;letter-spacing:-1px}.heroGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.mini{background:#ffffff12;border:1px solid #ffffff14;border-radius:14px;padding:10px}.mini b{display:block;font-size:14px;margin-top:3px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px}.stat{font-size:22px;font-weight:800;margin-top:5px}.income{color:var(--green)}.expense{color:var(--red)}h1{font-size:24px;margin:4px 0 14px;letter-spacing:-.5px}.sectionTitle{font-weight:800;margin:20px 0 10px}.row{display:flex;justify-content:space-between;align-items:center;gap:10px}.muted{color:var(--muted);font-size:13px}.tx{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.tx:last-child{border-bottom:0}.dot{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#eef2ff}.txmain{flex:1;min-width:0}.txname{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.txmeta{font-size:12px;color:var(--muted);margin-top:3px}.amount{font-weight:800;white-space:nowrap}.btn{border:0;border-radius:14px;padding:12px 15px;font-weight:750;background:var(--brand);color:white}.btn.secondary{background:#eef2ff;color:#3730a3}.btn.danger{background:#fee4e2;color:#b42318}.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.actions .btn:last-child:nth-child(3){grid-column:1/-1}.btn.block{width:100%}.fab{position:fixed;right:18px;bottom:calc(78px + var(--safe));z-index:12;width:58px;height:58px;border:0;border-radius:20px;background:var(--brand);color:#fff;font-size:28px;box-shadow:0 10px 25px #4f46e555}.nav{position:fixed;left:0;right:0;bottom:0;z-index:11;background:var(--nav);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding-bottom:var(--safe)}.navin{height:64px;max-width:640px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr)}.nav button{border:0;background:none;color:#667085;font-size:10px;font-weight:700;touch-action:manipulation;pointer-events:auto}.nav button span{display:block;font-size:22px;line-height:25px;margin-bottom:2px}.nav button.active{color:var(--brand)}.empty{text-align:center;padding:30px 15px;color:var(--muted)}.progress{height:8px;background:#edf0f5;border-radius:99px;overflow:hidden;margin-top:10px}.progress i{display:block;height:100%;background:var(--brand);border-radius:99px}.sheet{position:fixed;inset:0;z-index:30;background:#0006;display:none;align-items:flex-end}.sheet.open{display:flex}.sheetbox{background:var(--card);width:100%;max-width:640px;margin:auto auto 0;border-radius:26px 26px 0 0;padding:18px 16px calc(20px + var(--safe));max-height:92vh;overflow:auto}.handle{width:44px;height:5px;background:#d0d5dd;border-radius:99px;margin:0 auto 15px}.sheet h2{margin:4px 0 15px}.field{margin:11px 0}.field label{display:block;font-size:12px;color:var(--muted);font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;height:48px;border:1px solid #d8dde7;border-radius:14px;padding:0 13px;font-size:16px;background:#fff;outline:none}.field input:focus,.field select:focus{border-color:#818cf8;box-shadow:0 0 0 3px #6366f11a}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#f1f3f7;padding:5px;border-radius:14px}.seg button{border:0;border-radius:10px;padding:10px;background:transparent;font-weight:800}.seg button.active{background:#fff;box-shadow:0 1px 4px #10182814;color:var(--brand)}.toast{position:fixed;left:16px;right:16px;bottom:calc(86px + var(--safe));z-index:50;background:#101828;color:#fff;border-radius:14px;padding:13px 15px;display:none;font-size:14px}.toast.show{display:block}.dangerText{color:var(--red)}
 .smartGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.smartCard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px}.smartValue{font-size:21px;font-weight:800;margin-top:5px}.smartDelta{font-size:12px;margin-top:4px}.barRow{margin:10px 0}.barHead{display:flex;justify-content:space-between;gap:8px;font-size:13px}.barTrack{height:8px;background:#edf0f5;border-radius:99px;overflow:hidden;margin-top:6px}.barFill{height:100%;background:var(--brand);border-radius:99px}.insight{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-bottom:1px solid var(--line)}.insight:last-child{border-bottom:0}.insightIcon{width:34px;height:34px;border-radius:11px;background:#eef2ff;display:grid;place-items:center;flex:none}.smallCaps{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800}
 .safeCard{background:linear-gradient(135deg,#eef2ff,#ffffff);border:1px solid #dfe4ff;border-radius:20px;padding:17px}.safeAmount{font-size:30px;font-weight:850;letter-spacing:-.7px;margin:5px 0 4px}.safeBreakdown{margin-top:12px;padding-top:12px;border-top:1px solid #e4e7f2}.safeLine{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:5px 0}.safeWarn{margin-top:10px;padding:10px 12px;border-radius:12px;background:#fff1f0;color:#b42318;font-size:13px;font-weight:700}
 
@@ -12,34 +12,34 @@
 
  .memoryGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.memoryCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px}.memoryValue{font-size:20px;font-weight:800;margin-top:4px}.memoryTimeline{position:relative;padding-left:20px}.memoryTimeline:before{content:"";position:absolute;left:6px;top:4px;bottom:4px;width:2px;background:#e4e7ec}.memoryEvent{position:relative;padding:0 0 16px 14px}.memoryEvent:before{content:"";position:absolute;left:-18px;top:4px;width:10px;height:10px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px #eef2ff}.memoryEvent:last-child{padding-bottom:0}.memoryEvent b{display:block}.memoryTag{display:inline-block;margin-top:6px;padding:4px 8px;border-radius:999px;background:#f2f4f7;color:#475467;font-size:11px;font-weight:700} .memoryHint{font-size:12px;color:var(--muted);margin-top:5px}@media(max-width:420px){.memoryGrid{grid-template-columns:1fr}}@media(min-width:700px){.page{padding-bottom:24px}.nav{left:50%;right:auto;width:min(640px,100%);transform:translateX(-50%);border-radius:18px 18px 0 0}.sheetbox{border-radius:26px}}
 .moreItem{width:100%;border:0;background:transparent;display:flex;align-items:center;justify-content:space-between;text-align:left;padding:14px 10px;border-bottom:1px solid var(--line);color:var(--text);cursor:pointer}.moreItem:last-child{border-bottom:0}.moreItem>div{display:flex;flex-direction:column;gap:4px}.moreItem b{font-size:15px}.moreItem .muted{font-size:12px}
-.calHead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.calHead .btn{padding:8px 13px}.calWeek,.calGrid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.calWeek{margin-bottom:5px}.calWeek b{text-align:center;font-size:10px;color:var(--muted);text-transform:uppercase}.calDay{min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:7px 4px;text-align:center;color:var(--text);font:inherit;cursor:pointer}.calDay.today{border:2px solid var(--brand)}.calDay b{font-size:13px}.calDots{height:12px;display:flex;justify-content:center;gap:3px;margin-top:5px}.calDot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--muted)}.incomeDot{background:var(--green)}.expenseDot{background:var(--red)}.todayDot{border:1px solid var(--brand);background:transparent}.calBlank{min-height:48px}.calLegend{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:11px}.calLegend span{display:flex;align-items:center;gap:4px}
+.calHead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.calHead .btn{padding:8px 13px}.calWeek,.calGrid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.calWeek{margin-bottom:5px}.calWeek b{text-align:center;font-size:10px;color:var(--muted);text-transform:uppercase}.calDay{min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:7px 4px;text-align:center;color:var(--text);font:inherit;cursor:pointer}.calDay.today{border:2px solid var(--brand)}.calDay b{font-size:13px}.calDots{height:12px;display:flex;justify-content:center;gap:3px;margin-top:5px}.calDot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--muted)}.incomeDot{background:var(--green)}.expenseDot{background:var(--red)}.todayDot{border:1px solid var(--brand);background:transparent}.transferDot{background:var(--brand)}.calBlank{min-height:48px}.calLegend{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:11px}.calLegend span{display:flex;align-items:center;gap:4px}
 </style></head>
 <body>
 <header class="top"><div class="toprow"><div><div class="brand">Personal CFO</div><div class="sub" id="today"></div></div><button class="iconbtn" onclick="openSettings()">⚙️</button></div></header>
 <main id="app" class="page"></main>
 <button class="fab" onclick="openAdd()">＋</button>
-<nav class="nav"><div class="navin"><button data-tab="home" onclick="window.go('home')"><span>⌂</span>Home</button><button data-tab="history" onclick="window.go('history')"><span>▤</span>History</button><button data-tab="accounts" onclick="window.go('accounts')"><span>◉</span>Accounts</button><button data-tab="more" onclick="window.go('more')"><span>☰</span>More</button></div></nav>
+<nav class="nav" aria-label="Primary navigation"><div class="navin"><button type="button" data-tab="home"><span>⌂</span>Home</button><button type="button" data-tab="history"><span>▤</span>History</button><button type="button" data-tab="accounts"><span>◉</span>Accounts</button><button type="button" data-tab="more"><span>☰</span>More</button></div></nav>
 <div id="sheet" class="sheet" onclick="if(event.target===this)cancelForm()"><div class="sheetbox" id="sheetbox"></div></div><div id="toast" class="toast"></div>
 <script>
 
 
 const KEY='personal_cfo_mobile_v1';
 let state=load(), tab='home';
-function blank(){return{accounts:[{id:'cash',name:'Cash',type:'Cash',balance:0,openingBalance:0}],tx:[],assets:[],debts:[],budgets:[],recurring:[],tempMoney:[],safety:{reserve:0}}}
-function load(){try{let x=JSON.parse(localStorage.getItem(KEY));if(!x||!x.accounts)return blank();delete x.goals;if(!Array.isArray(x.assets))x.assets=[];if(Array.isArray(x.accounts))x.accounts.forEach(a=>{if(!('openingBalance' in a))a.openingBalance=null;if(!a.type)a.type='Other'});if(!Array.isArray(x.debts))x.debts=[];if(!Array.isArray(x.budgets))x.budgets=[];if(!Array.isArray(x.recurring))x.recurring=[];if(!Array.isArray(x.tempMoney))x.tempMoney=[];if(!Array.isArray(x.commitments))x.commitments=[];x.commitments.forEach(c=>{if(!Array.isArray(c.paymentIds))c.paymentIds=[];if(!Number.isFinite(+c.paidTotal))c.paidTotal=c.status==='settled'?(+c.amount||0):0});if(!x.safety||typeof x.safety!=='object')x.safety={reserve:0};if(!Number.isFinite(+x.safety.reserve))x.safety.reserve=0;delete x.safety.goal;return x}catch{return blank()}}
+function blank(){return{accounts:[{id:'cash',name:'Cash',type:'Cash',balance:0,openingBalance:0}],tx:[],assets:[],debts:[],budgets:[],recurring:[],tempMoney:[],commitments:[],safety:{reserve:0}}}
+function load(){try{let x=JSON.parse(localStorage.getItem(KEY));if(!x||!Array.isArray(x.accounts))return blank();delete x.goals;if(!Array.isArray(x.tx))x.tx=[];if(!Array.isArray(x.assets))x.assets=[];if(!Array.isArray(x.debts))x.debts=[];else x.debts.forEach(d=>{if(!Number.isFinite(+d.original)){d.original=+d.amount||0;delete d.amount;}if(!Number.isFinite(+d.paidAmount))d.paidAmount=0;if(!Number.isFinite(+d.remaining))d.remaining=Math.max(0,d.original-d.paidAmount);if(typeof d.note!=='string')d.note='';if(!Number.isFinite(+d.created))d.created=Date.now();if(!Array.isArray(d.payments))d.payments=[];});if(!Array.isArray(x.budgets))x.budgets=[];if(!Array.isArray(x.recurring))x.recurring=[];if(!Array.isArray(x.tempMoney))x.tempMoney=[];if(!Array.isArray(x.commitments))x.commitments=[];x.commitments.forEach(c=>{if(!Array.isArray(c.paymentIds))c.paymentIds=[];if(!Number.isFinite(+c.paidTotal))c.paidTotal=c.status==='settled'?(+c.amount||0):0});if(!x.safety||typeof x.safety!=='object')x.safety={reserve:0};if(!Number.isFinite(+x.safety.reserve))x.safety.reserve=0;if(Array.isArray(x.accounts)){x.accounts=x.accounts.filter(a=>a&&typeof a==='object');x.accounts.forEach((a,i)=>{if(!a.id)a.id='legacy_'+i+'_'+Date.now().toString(36);if(typeof a.name!=='string'||!a.name.trim())a.name='Account '+(i+1);if(!Number.isFinite(+a.balance))a.balance=0;if(!Number.isFinite(+a.openingBalance)){let linkedTx=x.tx.some(t=>t&& (t.accountId===a.id||t.fromAccountId===a.id||t.toAccountId===a.id));let recurring=x.recurring.some(r=>r&&r.accountId===a.id);let temp=x.tempMoney.some(t=>t&&t.accountId===a.id);let commitments=x.commitments.some(c=>c&&c.accountId===a.id);let debtPayments=x.debts.some(d=>Array.isArray(d.payments)&&d.payments.some(p=>p&&p.accountId===a.id));a.openingBalance=(linkedTx||recurring||temp||commitments||debtPayments)?null:(+a.balance||0)}if(!a.type)a.type='Other'});if(!x.accounts.length)x.accounts=blank().accounts;}delete x.safety.goal;return x}catch{return blank()}}
 function save(){localStorage.setItem(KEY,JSON.stringify(state));render()}
 function id(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
 function money(n){return '৳ '+Number(n||0).toLocaleString('en-BD',{minimumFractionDigits:0,maximumFractionDigits:2})}
 function date(){return new Date().toISOString().slice(0,10)}
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function tempTotals(){let held=0,lent=0,borrowed=0;state.tempMoney.forEach(x=>{let rem=Math.max(0,+x.remaining||0);if(x.type==='holding')held+=rem;else if(x.type==='lent')lent+=rem;else if(x.type==='borrowed')borrowed+=rem});return{held,lent,borrowed}}
-function totals(){let inc=0,exp=0;state.tx.forEach(t=>t.type==='income'?inc+=+t.amount:exp+=+t.amount);let cash=state.accounts.reduce((a,x)=>a+(+x.balance||0),0);let assets=state.assets.reduce((a,x)=>a+(+x.amount||0),0), debt=state.debts.reduce((a,x)=>a+(+x.amount||0),0),tm=tempTotals();let ownCash=Math.max(0,cash-tm.held-tm.borrowed);return{inc,exp,cash,ownCash,assets:assets+tm.lent,debt:debt+tm.held+tm.borrowed,net:cash+assets+tm.lent-debt-tm.held-tm.borrowed,held:tm.held,lent:tm.lent,borrowed:tm.borrowed}}
-function render(){document.getElementById('today').textContent=new Date().toLocaleDateString('en-BD',{weekday:'short',day:'numeric',month:'short'});document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));let el=document.getElementById('app');el.innerHTML=tab==='home'?home():tab==='history'?history():tab==='accounts'?accounts():more()}
+function totals(){let inc=0,exp=0;state.tx.forEach(t=>{if(t.type==='income')inc+=+t.amount;else if(t.type==='expense')exp+=+t.amount});let cash=state.accounts.reduce((a,x)=>a+(+x.balance||0),0);let assets=state.assets.reduce((a,x)=>a+(+x.amount||0),0), debt=state.debts.reduce((a,x)=>a+(+x.remaining||0),0),tm=tempTotals();let ownCash=Math.max(0,cash-tm.held-tm.borrowed);return{inc,exp,cash,ownCash,assets:assets+tm.lent,debt:debt+tm.held+tm.borrowed,net:cash+assets+tm.lent-debt-tm.held-tm.borrowed,held:tm.held,lent:tm.lent,borrowed:tm.borrowed}}
+function render(){document.getElementById('today').textContent=new Date().toLocaleDateString('en-BD',{weekday:'short',day:'numeric',month:'short'});document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));let el=document.getElementById('app');try{el.innerHTML=tab==='home'?home():tab==='history'?history():tab==='accounts'?accounts():more()}catch(e){console.error('Render error',e);el.innerHTML='<div class=\"card\"><b>Unable to open this section.</b><div class=\"muted\" style=\"margin-top:6px\">Your existing data was kept safe. Try reopening the section.</div></div>';toast('Section could not be opened');}}
 function monthKey(d){return d.slice(0,7)}
 function monthLabel(key){let [y,m]=key.split('-').map(Number);return new Date(y,m-1,1).toLocaleDateString('en-BD',{month:'long',year:'numeric'})}
 function canonicalCategory(value){let raw=String(value||'').trim();if(!raw)return'Other';let n=raw.toLowerCase().replace(/[\s_-]+/g,'');const map={food:'Food',transport:'Transport',transportation:'Transport',shopping:'Shopping',groceries:'Food',grocery:'Food',bills:'Bills',utilities:'Bills',health:'Health',medical:'Health',education:'Education',entertainment:'Entertainment',salary:'Salary',other:'Other'};return map[n]||raw}
 function categoryOptions(selected){const base=['Food','Transport','Shopping','Bills','Health','Education','Entertainment','Other'];let s=canonicalCategory(selected);if(s&&!base.includes(s))base.push(s);return base.map(c=>`<option value="${esc(c)}" ${c.toLowerCase()===s.toLowerCase()?'selected':''}>${esc(c)}</option>`).join('')}
-function monthStats(key){let xs=state.tx.filter(x=>monthKey(x.date||'')===key);let inc=0,exp=0;const cats={};xs.forEach(x=>{let a=+x.amount||0;if(x.type==='income')inc+=a;else{exp+=a;let c=canonicalCategory(x.category);cats[c]=(cats[c]||0)+a}});return{inc,exp,saved:inc-exp,cats}}
+function monthStats(key){let xs=state.tx.filter(x=>monthKey(x.date||'')===key);let inc=0,exp=0;const cats={};xs.forEach(x=>{let a=+x.amount||0;if(x.type==='income')inc+=a;else if(x.type==='expense'){exp+=a;let c=canonicalCategory(x.category);cats[c]=(cats[c]||0)+a}});return{inc,exp,saved:inc-exp,cats}}
 function previousMonthKey(key){let [y,m]=key.split('-').map(Number);m--;if(m===0){m=12;y--}return `${y}-${String(m).padStart(2,'0')}`}
 function pctChange(cur,prev){if(prev===0)return cur===0?0:null;return ((cur-prev)/prev)*100}
 function deltaHtml(cur,prev){let d=pctChange(cur,prev);if(d===null)return '<div class="smartDelta muted">No previous data</div>';let sign=d>0?'+':'';return `<div class="smartDelta ${d>0?'expense':d<0?'income':'muted'}">${sign}${d.toFixed(1)}% vs last month</div>`}
@@ -71,9 +71,9 @@ function saveSafety(){
  state.safety={reserve};save();closeSheet(true);safeSpendPage();toast('Safe-to-spend settings saved')
 }
 function home(){let t=totals(),today=state.tx.filter(x=>x.date===date()&&x.type==='expense').reduce((a,x)=>a+x.amount,0),recent=[...state.tx].sort((a,b)=>b.created-a.created).slice(0,5);let curKey=monthKey(date()),prevKey=previousMonthKey(curKey),cur=monthStats(curKey),prev=monthStats(prevKey),rate=cur.inc>0?(cur.saved/cur.inc)*100:0;let cats=Object.entries(cur.cats).sort((a,b)=>b[1]-a[1]).slice(0,5),maxCat=cats[0]?.[1]||1;let insights=[];if(cur.exp>0&&cur.inc>0){insights.push({icon:'💰',text:`You saved <b>${money(cur.saved)}</b> this month (${Math.max(0,rate).toFixed(1)}% of income).`})}if(cats.length){insights.push({icon:'📊',text:`Top spending category: <b>${esc(cats[0][0])}</b> at <b>${money(cats[0][1])}</b>.`})}if(prev.exp>0&&cur.exp>prev.exp){insights.push({icon:'⚠️',text:`Monthly expenses are <b>${money(cur.exp-prev.exp)}</b> higher than last month.`})}if(!insights.length)insights.push({icon:'💡',text:'Add a few transactions to unlock monthly insights.'});return `<div class="hero"><div class="label">Total net worth</div><div class="money">${money(t.net)}</div><div class="heroGrid"><div class="mini"><span class="label">Liquid</span><b>${money(t.cash)}</b></div><div class="mini"><span class="label">Assets</span><b>${money(t.assets)}</b></div><div class="mini"><span class="label">Debt</span><b>${money(t.debt)}</b></div></div></div><div class="grid2"><div class="card"><div class="muted">Income</div><div class="stat income">${money(t.inc)}</div><div class="smallCaps" style="margin-top:8px">All time</div></div><div class="card"><div class="muted">Expenses</div><div class="stat expense">${money(t.exp)}</div><div class="smallCaps" style="margin-top:8px">All time</div></div></div><div class="card" style="margin-top:10px"><div class="row"><div><div class="muted">Today</div><div class="stat expense">${money(today)}</div></div></div></div><div class="sectionTitle">${esc(monthLabel(curKey))}</div><div class="smartGrid"><div class="smartCard"><div class="muted">Income</div><div class="smartValue income">${money(cur.inc)}</div>${deltaHtml(cur.inc,prev.inc)}</div><div class="smartCard"><div class="muted">Expenses</div><div class="smartValue expense">${money(cur.exp)}</div>${deltaHtml(cur.exp,prev.exp)}</div><div class="smartCard"><div class="muted">Saved</div><div class="smartValue ${cur.saved>=0?'income':'expense'}">${money(cur.saved)}</div><div class="smartDelta muted">${rate.toFixed(1)}% savings rate</div></div><div class="smartCard"><div class="muted">Transactions</div><div class="smartValue">${state.tx.filter(x=>monthKey(x.date||'')===curKey).length}</div><div class="smartDelta muted">this month</div></div></div>${safeSpendCard()}<div class="sectionTitle">Spending breakdown</div><div class="card">${cats.length?cats.map(([name,val])=>`<div class="barRow"><div class="barHead"><span>${esc(name)}</span><b>${money(val)}</b></div><div class="barTrack"><div class="barFill" style="width:${Math.max(4,(val/maxCat)*100)}%"></div></div></div>`).join(''):`<div class="empty">No expenses recorded this month.</div>`}</div>${state.budgets.length?`<div class="sectionTitle">Budget</div><div class="card">${budgetStats(curKey).rows.slice(0,3).map(b=>{let pct=b.limit>0?(b.spent/b.limit)*100:0;let over=pct>100;return `<div class="barRow"><div class="barHead"><span>${esc(b.category)}</span><b class="${over?'expense':''}">${over?'Over '+money(Math.abs(b.remaining)):money(Math.max(0,b.remaining))+' left'}</b></div><div class="barTrack"><div class="barFill" style="width:${Math.min(100,Math.max(0,pct))}%;background:${over?'var(--red)':'var(--brand)'}"></div></div></div>`}).join('')}<button class="btn secondary block" style="margin-top:6px" onclick="budgetPage()">Manage budgets</button></div>`:''}<div class="sectionTitle">CFO insights</div><div class="card">${insights.map(i=>`<div class="insight"><div class="insightIcon">${i.icon}</div><div>${i.text}</div></div>`).join('')}</div><div class="sectionTitle">Recent transactions</div><div class="card">${recent.length?recent.map(tx).join(''):`<div class="empty">No transactions yet.<br>Tap <b>＋</b> to add your first one.</div>`}</div>`}
-function tx(x){return `<div class="tx" onclick="openTx('${x.id}')" style="cursor:pointer"><div class="dot">${x.type==='income'?'↗':'↘'}</div><div class="txmain"><div class="txname">${esc(x.note||x.category||x.type)}</div><div class="txmeta">${esc(x.category||'')} · ${esc(x.date)}</div></div><div class="amount ${x.type==='income'?'income':'expense'}">${x.type==='income'?'+':'−'}${money(x.amount)}</div></div>`}
+function tx(x){if(x.type==='transfer'){let fa=state.accounts.find(a=>a.id===x.fromAccountId),ta=state.accounts.find(a=>a.id===x.toAccountId);return `<div class="tx" onclick="openTx('${x.id}')" style="cursor:pointer"><div class="dot">⇄</div><div class="txmain"><div class="txname">${esc(x.note||'Account transfer')}</div><div class="txmeta">${esc(fa?fa.name:'Unknown')} → ${esc(ta?ta.name:'Unknown')} · ${esc(x.date)}</div></div><div class="amount">${money(x.amount)}</div></div>`}return `<div class="tx" onclick="openTx('${x.id}')" style="cursor:pointer"><div class="dot">${x.type==='income'?'↗':'↘'}</div><div class="txmain"><div class="txname">${esc(x.note||x.category||x.type)}</div><div class="txmeta">${esc(x.category||'')} · ${esc(x.date)}</div></div><div class="amount ${x.type==='income'?'income':'expense'}">${x.type==='income'?'+':'−'}${money(x.amount)}</div></div>`}
 let historyFilter={q:'',type:'all',category:'all',from:'',to:'',min:'',max:'',sort:'newest'};
-function historyCategories(){let cats=[...new Set(state.tx.map(x=>canonicalCategory(x.category||'Other')))].sort();return ['all',...cats]}
+function historyCategories(){let cats=[...new Set(state.tx.map(x=>x.type==='transfer'?'Account Transfer':canonicalCategory(x.category||'Other')))].sort();return ['all',...cats]}
 function filteredHistory(){let f=historyFilter,q=f.q.trim().toLowerCase();let xs=state.tx.filter(x=>{
  let hay=[x.note,x.category,x.type,x.date,x.amount].filter(v=>v!==undefined&&v!==null).join(' ').toLowerCase(); if(q&&!hay.includes(q))return false;
  if(f.type!=='all'&&x.type!==f.type)return false;
@@ -84,11 +84,30 @@ function filteredHistory(){let f=historyFilter,q=f.q.trim().toLowerCase();let xs
  xs.sort((a,b)=>{if(f.sort==='oldest')return String(a.date).localeCompare(String(b.date))||(a.created-b.created);if(f.sort==='highest')return (+b.amount||0)-(+a.amount||0);if(f.sort==='lowest')return (+a.amount||0)-(+b.amount||0);return String(b.date).localeCompare(String(a.date))||(b.created-a.created)});return xs}
 function historyPage(){render();}
 function clearHistoryFilters(){historyFilter={q:'',type:'all',category:'all',from:'',to:'',min:'',max:'',sort:'newest'};document.getElementById('app').innerHTML=historyView()}
-function historyView(){let xs=filteredHistory(),inc=xs.filter(x=>x.type==='income').reduce((a,x)=>a+(+x.amount||0),0),exp=xs.filter(x=>x.type==='expense').reduce((a,x)=>a+(+x.amount||0),0),avg=xs.length?(inc+exp)/xs.length:0,cats=historyCategories().filter(c=>c!=='all');return `<h1>History</h1><div class="historyTools"><div class="card" style="padding:12px"><input class="historySearch" value="${esc(historyFilter.q)}" placeholder="Search note, category, amount..." oninput="historyFilter.q=this.value;document.getElementById('app').innerHTML=historyView()"><div class="historyFilters" style="margin-top:8px"><select onchange="historyFilter.type=this.value;document.getElementById('app').innerHTML=historyView()"><option value="all" ${historyFilter.type==='all'?'selected':''}>All types</option><option value="income" ${historyFilter.type==='income'?'selected':''}>Income</option><option value="expense" ${historyFilter.type==='expense'?'selected':''}>Expense</option></select><select onchange="historyFilter.category=this.value;document.getElementById('app').innerHTML=historyView()">${cats.map(c=>`<option value="${esc(c)}" ${historyFilter.category===c?'selected':''}>${esc(c)}</option>`).join('')}<option value="all" ${historyFilter.category==='all'?'selected':''}>All categories</option></select><input type="date" value="${historyFilter.from}" onchange="historyFilter.from=this.value;document.getElementById('app').innerHTML=historyView()"><input type="date" value="${historyFilter.to}" onchange="historyFilter.to=this.value;document.getElementById('app').innerHTML=historyView()"><input type="number" min="0" inputmode="decimal" placeholder="Min amount" value="${historyFilter.min}" onchange="historyFilter.min=this.value;document.getElementById('app').innerHTML=historyView()" onkeydown="if(event.key==='Enter'){this.blur()}"><input type="number" min="0" inputmode="decimal" placeholder="Max amount" value="${historyFilter.max}" onchange="historyFilter.max=this.value;document.getElementById('app').innerHTML=historyView()" onkeydown="if(event.key==='Enter'){this.blur()}"></div><div class="historyActions" style="margin-top:8px"><select style="flex:1" onchange="historyFilter.sort=this.value;document.getElementById('app').innerHTML=historyView()"><option value="newest" ${historyFilter.sort==='newest'?'selected':''}>Newest first</option><option value="oldest" ${historyFilter.sort==='oldest'?'selected':''}>Oldest first</option><option value="highest" ${historyFilter.sort==='highest'?'selected':''}>Highest amount</option><option value="lowest" ${historyFilter.sort==='lowest'?'selected':''}>Lowest amount</option></select><button class="btn secondary" onclick="clearHistoryFilters()">Clear</button></div><div class="historyHint">Search and filters update instantly.</div></div></div><div class="historySummary"><div class="historyStat"><div class="muted">Results</div><div class="v">${xs.length}</div></div><div class="historyStat"><div class="muted">Income</div><div class="v income">${money(inc)}</div></div><div class="historyStat"><div class="muted">Expense</div><div class="v expense">${money(exp)}</div></div></div><div class="card">${xs.length?xs.map(tx).join(''):`<div class="empty">No matching transactions.</div>`}${xs.length?`<div class="muted" style="text-align:center;padding-top:10px">Average transaction: <b>${money(avg)}</b></div>`:''}</div>`}
+function historyView(){let xs=filteredHistory(),inc=xs.filter(x=>x.type==='income').reduce((a,x)=>a+(+x.amount||0),0),exp=xs.filter(x=>x.type==='expense').reduce((a,x)=>a+(+x.amount||0),0),transfer=xs.filter(x=>x.type==='transfer').reduce((a,x)=>a+(+x.amount||0),0),avg=xs.length?(inc+exp+transfer)/xs.length:0,cats=historyCategories().filter(c=>c!=='all');return `<h1>History</h1><div class="historyTools"><div class="card" style="padding:12px"><input class="historySearch" value="${esc(historyFilter.q)}" placeholder="Search note, category, amount..." oninput="historyFilter.q=this.value;document.getElementById('app').innerHTML=historyView()"><div class="historyFilters" style="margin-top:8px"><select onchange="historyFilter.type=this.value;document.getElementById('app').innerHTML=historyView()"><option value="all" ${historyFilter.type==='all'?'selected':''}>All types</option><option value="income" ${historyFilter.type==='income'?'selected':''}>Income</option><option value="expense" ${historyFilter.type==='expense'?'selected':''}>Expense</option><option value="transfer" ${historyFilter.type==='transfer'?'selected':''}>Transfer</option></select><select onchange="historyFilter.category=this.value;document.getElementById('app').innerHTML=historyView()">${cats.map(c=>`<option value="${esc(c)}" ${historyFilter.category===c?'selected':''}>${esc(c)}</option>`).join('')}<option value="all" ${historyFilter.category==='all'?'selected':''}>All categories</option></select><input type="date" value="${historyFilter.from}" onchange="historyFilter.from=this.value;document.getElementById('app').innerHTML=historyView()"><input type="date" value="${historyFilter.to}" onchange="historyFilter.to=this.value;document.getElementById('app').innerHTML=historyView()"><input type="number" min="0" inputmode="decimal" placeholder="Min amount" value="${historyFilter.min}" onchange="historyFilter.min=this.value;document.getElementById('app').innerHTML=historyView()" onkeydown="if(event.key==='Enter'){this.blur()}"><input type="number" min="0" inputmode="decimal" placeholder="Max amount" value="${historyFilter.max}" onchange="historyFilter.max=this.value;document.getElementById('app').innerHTML=historyView()" onkeydown="if(event.key==='Enter'){this.blur()}"></div><div class="historyActions" style="margin-top:8px"><select style="flex:1" onchange="historyFilter.sort=this.value;document.getElementById('app').innerHTML=historyView()"><option value="newest" ${historyFilter.sort==='newest'?'selected':''}>Newest first</option><option value="oldest" ${historyFilter.sort==='oldest'?'selected':''}>Oldest first</option><option value="highest" ${historyFilter.sort==='highest'?'selected':''}>Highest amount</option><option value="lowest" ${historyFilter.sort==='lowest'?'selected':''}>Lowest amount</option></select><button class="btn secondary" onclick="clearHistoryFilters()">Clear</button></div><div class="historyHint">Search and filters update instantly.</div></div></div><div class="historySummary"><div class="historyStat"><div class="muted">Results</div><div class="v">${xs.length}</div></div><div class="historyStat"><div class="muted">Income</div><div class="v income">${money(inc)}</div></div><div class="historyStat"><div class="muted">Expense</div><div class="v expense">${money(exp)}</div></div><div class="historyStat"><div class="muted">Transfer</div><div class="v">${money(transfer)}</div></div></div><div class="card">${xs.length?xs.map(tx).join(''):`<div class="empty">No matching transactions.</div>`}${xs.length?`<div class="muted" style="text-align:center;padding-top:10px">Average transaction: <b>${money(avg)}</b></div>`:''}</div>`}
 function history(){return historyView()}
-function accountHasActivity(aid){return state.tx.some(t=>t.accountId===aid)||state.recurring.some(r=>r.accountId===aid)||state.tempMoney.some(x=>x.accountId===aid)||state.commitments.some(c=>c.accountId===aid)}
-function accountTypeLabel(t){let x=String(t||'Other');return x==='cash'?'Cash':x}
-function accounts(){return `<h1>Accounts</h1><button class="btn block" onclick="accountForm()">+ Add account</button><div class="sectionTitle">Your money</div>${state.accounts.map(a=>`<div class="card" style="margin-bottom:10px"><div class="row"><div style="min-width:0"><b>${esc(a.name)}</b><div class="muted">${esc(accountTypeLabel(a.type))}${a.balance<0?' · ⚠️ Negative balance':''}</div></div><strong class="${a.balance<0?'expense':''}">${money(a.balance)}</strong></div><div class="actions" style="margin-top:10px"><button class="btn secondary" onclick="accountForm('${a.id}')">Edit</button><button class="btn danger" onclick="deleteAccount('${a.id}')">Delete</button></div></div>`).join('')}`}
+function accountHasActivity(aid){
+ let txs=Array.isArray(state&&state.tx)?state.tx:[];
+ let recurringList=Array.isArray(state&&state.recurring)?state.recurring:[];
+ let tempList=Array.isArray(state&&state.tempMoney)?state.tempMoney:[];
+ let commitmentList=Array.isArray(state&&state.commitments)?state.commitments:[];
+ let debtList=Array.isArray(state&&state.debts)?state.debts:[];
+ let linkedTx=txs.some(t=>t&& (t.accountId===aid||t.fromAccountId===aid||t.toAccountId===aid));
+ let recurring=recurringList.some(r=>r.accountId===aid);
+ let temp=tempList.some(x=>x.accountId===aid);
+ let commitments=commitmentList.some(c=>c.accountId===aid);
+ let debtPayments=debtList.some(d=>Array.isArray(d.payments)&&d.payments.some(p=>p.accountId===aid));
+ return linkedTx||recurring||temp||commitments||debtPayments;
+}
+function accountTypeLabel(t){
+ let x=String(t||'Other').trim().toLowerCase();
+ if(x==='cash')return 'Cash'; if(x==='bank')return 'Bank';
+ if(x==='mobile wallet'||x==='mobile_wallet'||x==='mobilewallet')return 'Mobile Wallet';
+ if(x==='card')return 'Card'; return 'Other';
+}
+function accounts(){
+ return `<h1>Accounts</h1><button type="button" class="btn block" onclick="window.accountForm()">+ Add account</button><button type="button" class="btn secondary block" style="margin-top:8px" onclick="window.transferForm()">🔄 Transfer money</button><div class="sectionTitle">Your money</div>${state.accounts.map(a=>{let locked=accountHasActivity(a.id);return `<div class="card" style="margin-bottom:10px"><div class="row"><div style="min-width:0"><b>${esc(a.name)}</b><div class="muted">${esc(accountTypeLabel(a.type))}${a.balance<0?' · ⚠️ Negative balance':''}</div></div><strong class="${a.balance<0?'expense':''}">${money(a.balance)}</strong></div><div class="actions" style="margin-top:10px"><button type="button" class="btn secondary" onclick="window.accountForm('${a.id}')">Edit</button><button type="button" class="btn danger" onclick="window.deleteAccount('${a.id}')">Delete</button></div>${locked?`<div class="muted" style="margin-top:8px;font-size:11px">🔒 Financial history linked — account cannot be deleted or have its opening balance changed.</div>`:''}</div>`}).join('')}`;
+}
 function financialMemoryPage(){
  let months=[...new Set(state.tx.map(x=>monthKey(x.date||'')).filter(Boolean))].sort((a,b)=>b.localeCompare(a));
  if(!months.length){document.getElementById('app').innerHTML=`<h1>Financial Memory</h1><div class="card"><div class="empty">Your financial memory will appear after you record transactions.<br><br>Personal CFO will build it automatically from your history.</div></div>`;return}
@@ -206,7 +225,7 @@ function updateCommitmentPayment(tid){
 function deleteCommitment(cid){let x=state.commitments.find(x=>x.id===cid);if(!x)return;syncCommitment(x);if((x.paymentIds||[]).length){toast('Reverse linked payments before deleting this commitment');return}if(!confirm('Delete this commitment?'))return;state.commitments=state.commitments.filter(x=>x.id!==cid);save();commitmentPage();toast('Commitment deleted')}
 
 function more(){return `<h1>More</h1><div class="sectionTitle">Money tools</div><div class="card" style="padding:6px"><button class="moreItem" onclick="recurringPage()"><div><b>🔁 Recurring & Forecast</b><span class="muted">Regular income, expenses and next 30 days</span></div><span>›</span></button><button class="moreItem" onclick="window.cashCalendarPage()"><div><b>📅 Cash Flow Calendar</b><span class="muted">See future money movements and projected balance</span></div><span>›</span></button><button class="moreItem" onclick="analyticsPage()"><div><b>📈 Financial Analytics</b><span class="muted">Trends, spending and savings analysis</span></div><span>›</span></button><button class="moreItem" onclick="financialMemoryPage()"><div><b>🧠 Financial Memory</b><span class="muted">Your financial history, milestones and patterns</span></div><span>›</span></button><button class="moreItem" onclick="financialContextPage()"><div><b>🧭 Financial Context</b><span class="muted">Understand this month against your own history</span></div><span>›</span></button><button class="moreItem" onclick="temporaryMoneyPage()"><div><b>🧾 Temporary Money</b><span class="muted">Track money held, lent or borrowed temporarily</span></div><span>›</span></button><button class="moreItem" onclick="commitmentPage()"><div><b>📌 Financial Commitments</b><span class="muted">Money you have committed to spend</span></div><span>›</span></button><button class="moreItem" onclick="healthPage()"><div><b>🩺 Financial Health</b><span class="muted">Your overall financial position and safety metrics</span></div><span>›</span></button><button class="moreItem" onclick="moneySimulatorPage()"><div><b>🧬 Money Simulator</b><span class="muted">See how a decision could change your financial position</span></div><span>›</span></button><button class="moreItem" onclick="budgetPage()"><div><b>📊 Budget</b><span class="muted">Monthly category limits</span></div><span>›</span></button><button class="moreItem" onclick="safeSpendPage()"><div><b>🛡️ Safe to Spend</b><span class="muted">Protected money and available spending</span></div><span>›</span></button><button class="moreItem" onclick="assetsPage()"><div><b>💎 Assets</b><span class="muted">Track valuable assets</span></div><span>›</span></button><button class="moreItem" onclick="debtPage()"><div><b>💳 Debt</b><span class="muted">Track outstanding liabilities</span></div><span>›</span></button></div><div class="sectionTitle">App</div><div class="card" style="padding:6px"><button class="moreItem" onclick="openSettings()"><div><b>⚙️ Settings</b><span class="muted">Backup, restore and data controls</span></div><span>›</span></button></div>`}
-function go(x){if(x==='recurring'){tab='more';recurringPage();return}if(x==='assets'){tab='more';assetsPage();return}if(x==='debt'){tab='more';debtPage();return}if(x==='budget'){tab='more';budgetPage();return}if(x==='safe'){tab='more';safeSpendPage();return}tab=x;render()}
+function go(x){if(x==='recurring'){tab='more';recurringPage();return false}if(x==='assets'){tab='more';assetsPage();return false}if(x==='debt'){tab='more';debtPage();return false}if(x==='budget'){tab='more';budgetPage();return false}if(x==='safe'){tab='more';safeSpendPage();return false}if(!['home','history','accounts','more'].includes(x))x='home';tab=x;render();return false}
 function openAdd(prefill){
  let opts=state.accounts.map(a=>`<option value="${a.id}" ${prefill&&prefill.accountId===a.id?'selected':''}>${esc(a.name)}</option>`).join('');
  let p=prefill||{};
@@ -248,14 +267,48 @@ function addTx(){
 }
 function openTx(tid){
  let x=state.tx.find(t=>t.id===tid); if(!x)return;
+ if(x.type==='transfer'){
+   let fa=state.accounts.find(a=>a.id===x.fromAccountId),ta=state.accounts.find(a=>a.id===x.toAccountId);
+   if(!fa||!ta){toast('Transfer accounts no longer exist');return;}
+   openSheet(`<div class="handle"></div><h2>Account transfer</h2><div class="card"><div class="row"><div><div class="muted">From</div><b>${esc(fa.name)}</b></div><span>→</span><div style="text-align:right"><div class="muted">To</div><b>${esc(ta.name)}</b></div></div><div style="font-size:24px;font-weight:800;margin-top:14px">${money(x.amount)}</div><div class="muted" style="margin-top:8px">${esc(x.date)}${x.note?' · '+esc(x.note):''}</div></div><div class="actions"><button class="btn secondary" onclick="editTransfer('${x.id}')">Edit transfer</button><button class="btn danger" onclick="deleteTx('${x.id}')">Delete transfer</button><button class="btn secondary" onclick="cancelForm()">Close</button></div>`);
+   window._editingId=x.id;window._formDirty=false;return;
+ }
+ if(x.type==='debt_payment'){
+   let d = state.debts.find(d=>d.id===x.debtId) || state.debts.find(d=>d.payments&&d.payments.some(p=>p.transactionId===x.id));
+   if(d){
+     closeSheet(true);
+     debtDetail(d.id);
+     toast('Opened linked debt detail');
+     return;
+   }
+ }
  openSheet(`<div class="handle"></div><h2>Transaction</h2>
  <div class="card"><div class="row"><div><div class="muted">${esc(x.type)}</div><b style="font-size:24px">${x.type==='income'?'+':'−'}${money(x.amount)}</b></div><span>${esc(x.date)}</span></div><div class="muted" style="margin-top:10px">${esc(x.category||'Other')}${x.note?' · '+esc(x.note):''}</div></div>
- <div class="actions"><button class="btn secondary" onclick="${x.commitmentId?'editCommitmentPayment(\''+x.id+'\')':'editTx(\''+x.id+'\')'}">${x.commitmentId?'Edit payment':'Edit'}</button><button class="btn secondary" onclick="repeatTx('${x.id}')">Repeat</button><button class="btn danger" onclick="deleteTx('${x.id}')">Delete</button><button class="btn secondary" onclick="cancelForm()">Close</button></div>`);
+ <div class="actions">
+   <button class="btn secondary" onclick="${x.commitmentId?'editCommitmentPayment(\''+x.id+'\')':x.type==='debt_payment'?'toast(\'Debt payments must be edited from Debt details\')':'editTx(\''+x.id+'\')'}">${x.commitmentId?'Edit payment':'Edit'}</button>
+   ${x.type==='debt_payment'?'':'<button class="btn secondary" onclick="repeatTx(\''+x.id+'\')">Repeat</button>'}
+   <button class="btn danger" onclick="deleteTx('${x.id}')">Delete</button>
+   <button class="btn secondary" onclick="cancelForm()">Close</button>
+ </div>`);
  window._editingId=x.id; window._formDirty=false;
 }
-function repeatTx(tid){let x=state.tx.find(t=>t.id===tid);if(!x)return;closeSheet(true);openAdd({type:x.type,amount:x.amount,category:x.category||'Other',date:date(),accountId:x.accountId,note:x.note||''});}
+function repeatTx(tid){
+ let x=state.tx.find(t=>t.id===tid);if(!x)return;
+ if(x.type==='debt_payment'){toast('Debt payments cannot be repeated');return;}
+ if(x.type==='transfer'){toast('Account transfers cannot be repeated');return;}
+ closeSheet(true);
+ openAdd({type:x.type,amount:x.amount,category:x.category||'Other',date:date(),accountId:x.accountId,note:x.note||''});
+}
 function editTx(tid){
  let x=state.tx.find(t=>t.id===tid); if(!x)return;
+ if(x.type==='transfer'){editTransfer(tid);return;}
+ if(x.type==='debt_payment'){
+   toast('Debt payments must be edited from Debt details');
+   closeSheet(true);
+   let d = state.debts.find(d=>d.id===x.debtId) || state.debts.find(d=>d.payments&&d.payments.some(p=>p.transactionId===x.id));
+   if(d) debtDetail(d.id);
+   return;
+ }
  let opts=state.accounts.map(a=>`<option value="${a.id}" ${a.id===x.accountId?'selected':''}>${esc(a.name)}</option>`).join('');
  openSheet(`<div class="handle"></div><h2>Edit transaction</h2>
  <div class="seg"><button id="ti" class="${x.type==='income'?'active':''}" onclick="setType('income')">Income</button><button id="te" class="${x.type==='expense'?'active':''}" onclick="setType('expense')">Expense</button></div>
@@ -269,6 +322,8 @@ function editTx(tid){
 }
 function updateTx(tid){
  let x=state.tx.find(t=>t.id===tid); if(!x)return;
+ if(x.type==='transfer'){toast('Account transfers must be edited from Transfer details');return;}
+ if(x.type==='debt_payment'){toast('Debt payments must be edited from Debt details');return;}
  let amount=+document.getElementById('amt').value;
  if(!(amount>0)){toast('Enter an amount greater than 0');return}
  let oldAcc=state.accounts.find(a=>a.id===x.accountId), newAcc=state.accounts.find(a=>a.id===document.getElementById('acc').value);
@@ -280,6 +335,19 @@ function updateTx(tid){
 }
 function deleteTx(tid){
  let x=state.tx.find(t=>t.id===tid); if(!x)return;
+ if(x.type==='transfer'){
+   if(!confirm(`Delete this transfer of ${money(x.amount)}? Account balances will be restored.`))return;
+   let fa=state.accounts.find(a=>a.id===x.fromAccountId),ta=state.accounts.find(a=>a.id===x.toAccountId);
+   if(!fa||!ta){toast('Transfer accounts no longer exist');return;}
+   fa.balance=+(fa.balance+x.amount).toFixed(2);
+   ta.balance=+(ta.balance-x.amount).toFixed(2);
+   state.tx=state.tx.filter(t=>t.id!==tid);
+   save();closeSheet(true);accounts();toast('Transfer deleted');return;
+ }
+ if(x.type==='debt_payment'){
+   toast('Debt payments must be deleted from Debt details');
+   return;
+ }
  if(x.commitmentId){
    let c=state.commitments.find(c=>c.id===x.commitmentId);
    if(!c){toast('Linked commitment no longer exists');return}
@@ -301,9 +369,54 @@ function cancelForm(){
  if(window._formDirty && !confirm('Discard this entry?')) return;
  closeSheet(true);
 }
-function accountForm(aid){let a=state.accounts.find(x=>x.id===aid),known=a&&Number.isFinite(+a.openingBalance);let openingHtml=a&&!known?`<div class="card" style="margin-top:10px"><div class="muted">Opening balance</div><b>Not editable for this older account</b><div class="muted" style="margin-top:4px">Its current balance is tied to existing financial history.</div></div>`:`<div class="field"><label>Opening balance</label><input id="ab" type="number" inputmode="decimal" step="0.01" value="${a?Number(a.openingBalance)||0:0}" placeholder="0"></div>`;openSheet(`<div class="handle"></div><h2>${a?'Edit account':'Add account'}</h2><div class="field"><label>Name</label><input id="an" value="${a?esc(a.name):''}" placeholder="bKash, Bank, Cash..."></div><div class="field"><label>Type</label><select id="at"><option ${!a||accountTypeLabel(a.type)==='Cash'?'selected':''}>Cash</option><option ${a&&accountTypeLabel(a.type)==='Bank'?'selected':''}>Bank</option><option ${a&&accountTypeLabel(a.type)==='Mobile Wallet'?'selected':''}>Mobile Wallet</option><option ${a&&accountTypeLabel(a.type)==='Card'?'selected':''}>Card</option><option ${a&&accountTypeLabel(a.type)==='Other'?'selected':''}>Other</option></select></div>${openingHtml}<div class="actions"><button class="btn secondary" onclick="cancelForm()">Cancel</button><button class="btn" onclick="saveAccount('${aid||''}')">${a?'Save changes':'Save account'}</button></div>`);bindDirtyTracking()}
-function saveAccount(aid){let n=document.getElementById('an').value.trim(),type=document.getElementById('at').value;if(!n){toast('Enter account name');return}if(state.accounts.some(a=>a.id!==aid&&String(a.name||'').trim().toLowerCase()===n.toLowerCase())){toast('An account with this name already exists');return}if(aid){let a=state.accounts.find(x=>x.id===aid);if(!a)return;a.name=n;a.type=type;if(Number.isFinite(+a.openingBalance)){let opening=+document.getElementById('ab').value;if(!Number.isFinite(opening)){toast('Enter a valid opening balance');return}let delta=opening-(+a.openingBalance||0);a.openingBalance=opening;a.balance=+(+a.balance+delta).toFixed(2)}save();closeSheet(true);toast('Account updated');return}let opening=+document.getElementById('ab').value||0;state.accounts.push({id:id(),name:n,type,balance:opening,openingBalance:opening});save();closeSheet(true);toast('Account added')}
-function deleteAccount(aid){let a=state.accounts.find(x=>x.id===aid);if(!a)return;if(state.accounts.length<=1){toast('Keep at least one account');return}if(accountHasActivity(aid)){toast('This account has financial history and cannot be deleted');return}if(!confirm(`Delete ${a.name}?\n\nThis will remove ${money(a.balance)} from your account list. No transaction will be deleted.`))return;state.accounts=state.accounts.filter(x=>x.id!==aid);save();closeSheet(true);toast('Account deleted')}
+function transferForm(tid){
+ let x=tid?state.tx.find(t=>t.id===tid):null;
+ if(tid&&!x)return;
+ let accounts=state.accounts.filter(a=>a.isActive!==false);
+ if(accounts.length<2){toast('Create at least two accounts to transfer money');return;}
+ let fromId=x?x.fromAccountId:accounts[0].id;
+ let toId=x?x.toAccountId:(accounts.find(a=>a.id!==fromId)||accounts[1]).id;
+ let optsFrom=accounts.map(a=>`<option value="${esc(a.id)}" ${a.id===fromId?'selected':''}>${esc(a.name)} (${money(a.balance)})</option>`).join('');
+ let optsTo=accounts.map(a=>`<option value="${esc(a.id)}" ${a.id===toId?'selected':''}>${esc(a.name)} (${money(a.balance)})</option>`).join('');
+ openSheet(`<div class="handle"></div><h2>${x?'Edit transfer':'Transfer money'}</h2><div class="muted">Move money between your own accounts. This is not income or expense.</div><div class="field"><label>From account</label><select id="tfFrom">${optsFrom}</select></div><div class="field"><label>To account</label><select id="tfTo">${optsTo}</select></div><div class="field"><label>Amount</label><input id="tfAmount" type="number" min="0.01" step="0.01" inputmode="decimal" value="${x?x.amount:''}" placeholder="5000" required></div><div class="field"><label>Date</label><input id="tfDate" type="date" value="${x?esc(x.date):date()}" required></div><div class="field"><label>Note (optional)</label><input id="tfNote" value="${x?esc(x.note||''):''}" placeholder="ATM withdrawal, Bank to bKash..."></div><div class="actions"><button class="btn secondary" onclick="cancelForm()">Cancel</button><button class="btn" onclick="saveTransfer('${tid||''}')">${x?'Save changes':'Transfer'}</button></div>`);
+ bindDirtyTracking();
+}
+function saveTransfer(tid){
+ let fromId=document.getElementById('tfFrom').value,toId=document.getElementById('tfTo').value,amount=+document.getElementById('tfAmount').value,dateVal=document.getElementById('tfDate').value,note=document.getElementById('tfNote').value.trim();
+ if(fromId===toId){toast('From and To accounts must be different');return;}
+ if(!(amount>0)||!Number.isFinite(amount)){toast('Enter a valid transfer amount');return;}
+ if(!dateVal){toast('Choose a valid date');return;}
+ amount=+amount.toFixed(2);
+ let from=state.accounts.find(a=>a.id===fromId),to=state.accounts.find(a=>a.id===toId);
+ if(!from||!to){toast('Select valid accounts');return;}
+ if(tid){
+   let x=state.tx.find(t=>t.id===tid);
+   if(!x||x.type!=='transfer'){toast('Transfer not found');return;}
+   let oldFrom=state.accounts.find(a=>a.id===x.fromAccountId),oldTo=state.accounts.find(a=>a.id===x.toAccountId);
+   if(!oldFrom||!oldTo){toast('Original transfer accounts are missing; update aborted');return;}
+   oldFrom.balance=+(oldFrom.balance+x.amount).toFixed(2);
+   oldTo.balance=+(oldTo.balance-x.amount).toFixed(2);
+   from.balance=+(from.balance-amount).toFixed(2);
+   to.balance=+(to.balance+amount).toFixed(2);
+   Object.assign(x,{amount,fromAccountId:from.id,toAccountId:to.id,date:dateVal,note,category:'Account Transfer'});
+   save();closeSheet(true);accounts();toast('Transfer updated');return;
+ }
+ from.balance=+(from.balance-amount).toFixed(2);
+ to.balance=+(to.balance+amount).toFixed(2);
+ state.tx.push({id:id(),type:'transfer',amount,category:'Account Transfer',date:dateVal,note,fromAccountId:from.id,toAccountId:to.id,created:Date.now()});
+ save();closeSheet(true);accounts();toast('Transfer completed');
+}
+function editTransfer(tid){transferForm(tid)}
+function accountForm(aid){let a=state.accounts.find(x=>x.id===aid),hasActivity=a&&accountHasActivity(a.id),known=a&&Number.isFinite(+a.openingBalance);let openingHtml=a&&hasActivity?`<div class="card" style="margin-top:10px"><div class="muted">Opening balance</div><b>Locked after financial activity</b><div class="muted" style="margin-top:4px">Edit the account name or type only. Changing the opening balance would alter historical accounting.</div></div>`:a&&!known?`<div class="card" style="margin-top:10px"><div class="muted">Opening balance</div><b>Not editable for this older account</b><div class="muted" style="margin-top:4px">Its current balance is tied to existing financial history.</div></div>`:`<div class="field"><label>Opening balance</label><input id="ab" type="number" inputmode="decimal" step="0.01" value="${a?Number(a.openingBalance)||0:0}" placeholder="0"></div>`;openSheet(`<div class="handle"></div><h2>${a?'Edit account':'Add account'}</h2><div class="field"><label>Name</label><input id="an" value="${a?esc(a.name):''}" placeholder="bKash, Bank, Cash..."></div><div class="field"><label>Type</label><select id="at"><option ${!a||accountTypeLabel(a.type)==='Cash'?'selected':''}>Cash</option><option ${a&&accountTypeLabel(a.type)==='Bank'?'selected':''}>Bank</option><option ${a&&accountTypeLabel(a.type)==='Mobile Wallet'?'selected':''}>Mobile Wallet</option><option ${a&&accountTypeLabel(a.type)==='Card'?'selected':''}>Card</option><option ${a&&accountTypeLabel(a.type)==='Other'?'selected':''}>Other</option></select></div>${openingHtml}<div class="actions"><button class="btn secondary" onclick="cancelForm()">Cancel</button><button class="btn" onclick="saveAccount('${aid||''}')">${a?'Save changes':'Save account'}</button></div>`);bindDirtyTracking()}
+function saveAccount(aid){let n=document.getElementById('an').value.trim(),type=accountTypeLabel(document.getElementById('at').value);if(!n){toast('Enter account name');return}if(state.accounts.some(a=>a.id!==aid&&String(a.name||'').trim().toLowerCase()===n.toLowerCase())){toast('An account with this name already exists');return}if(aid){let a=state.accounts.find(x=>x.id===aid);if(!a)return;a.name=n;a.type=type;if(!accountHasActivity(aid)&&Number.isFinite(+a.openingBalance)){let opening=+document.getElementById('ab').value;if(!Number.isFinite(opening)){toast('Enter a valid opening balance');return}let delta=opening-(+a.openingBalance||0);a.openingBalance=opening;a.balance=+(+a.balance+delta).toFixed(2)}save();closeSheet(true);accounts();toast('Account updated');return}let ab=document.getElementById('ab');let opening=ab?+ab.value:0;if(!Number.isFinite(opening)){toast('Enter a valid opening balance');return}state.accounts.push({id:id(),name:n,type,balance:opening,openingBalance:opening});save();closeSheet(true);accounts();toast('Account added')}
+function deleteAccount(aid){
+ let a=state.accounts.find(x=>x.id===aid); if(!a)return;
+ if(state.accounts.length<=1){toast('Keep at least one account');return}
+ if(accountHasActivity(aid)){toast('This account has financial history and cannot be deleted');return}
+ if(!confirm(`Delete ${a.name}?\n\nThis will remove ${money(a.balance)} from your account list. No transaction will be deleted.`))return;
+ state.accounts=state.accounts.filter(x=>x.id!==aid);
+ save(); closeSheet(true); accounts(); toast('Account deleted');
+}
 function isoDate(d){return new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,10)}
 function addDays(ds,n){let d=new Date(ds+'T12:00:00');d.setDate(d.getDate()+n);return isoDate(d)}
 function addMonths(ds,n){let d=new Date(ds+'T12:00:00');let day=d.getDate();d.setDate(1);d.setMonth(d.getMonth()+n);let last=new Date(d.getFullYear(),d.getMonth()+1,0).getDate();d.setDate(Math.min(day,last));return isoDate(d)}
@@ -336,9 +449,9 @@ function projectedCashBreakdown(targetDate){
   return {starting,income,expense,net:income-expense,projected:starting+income-expense,count:occurrences.length};
 }
 function calendarData(month){let parts=String(month||date().slice(0,7)).split('-').map(Number),y=parts[0],m=parts[1],first=`${y}-${String(m).padStart(2,'0')}-01`,lastDay=new Date(y,m,0).getDate(),last=`${y}-${String(m).padStart(2,'0')}-${String(lastDay).padStart(2,'0')}`,events={};recurringOccurrencesBetween(isoAddDays(first,-45),isoAddDays(last,45)).forEach(x=>{if(x.dueDate>=first&&x.dueDate<=last)(events[x.dueDate]??=[]).push({kind:'rec',...x})});state.tx.filter(x=>x.date>=first&&x.date<=last).forEach(x=>(events[x.date]??=[]).push({kind:'tx',...x}));return{y,m,first,last,lastDay,events}}
-function calendarDayHtml(ds,events){let today=date(),day=Number(ds.slice(-2)),hasIncome=events.some(e=>e.type==='income'),hasExpense=events.some(e=>e.type==='expense');return `<button type="button" class="calDay ${ds===today?'today':''}" onclick="window.cashCalendarDate('${ds}')"><b>${day}</b><div class="calDots">${hasIncome?'<i class="calDot incomeDot"></i>':''}${hasExpense?'<i class="calDot expenseDot"></i>':''}</div></button>`}
-function cashCalendarPage(month){try{let mk=month||date().slice(0,7),d=calendarData(mk),firstDow=new Date(d.first+'T12:00:00').getDay(),cells=[];for(let i=0;i<firstDow;i++)cells.push('<div class="calBlank"></div>');for(let day=1;day<=d.lastDay;day++){let ds=`${mk}-${String(day).padStart(2,'0')}`;cells.push(calendarDayHtml(ds,d.events[ds]||[]))}while(cells.length%7)cells.push('<div class="calBlank"></div>');let monthName=new Date(d.first+'T12:00:00').toLocaleDateString('en-BD',{month:'long',year:'numeric'}),prevMonth=isoAddDays(d.first,-1).slice(0,7),nextMonth=isoAddDays(d.last,1).slice(0,7);document.getElementById('app').innerHTML=`<h1>Cash flow calendar</h1><div class="card"><div class="calHead"><button type="button" class="btn secondary" onclick="window.cashCalendarPage('${prevMonth}')">‹</button><b>${esc(monthName)}</b><button type="button" class="btn secondary" onclick="window.cashCalendarPage('${nextMonth}')">›</button></div><div class="calWeek"><b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b></div><div class="calGrid">${cells.join('')}</div><div class="calLegend"><span><i class="calDot incomeDot"></i> Income</span><span><i class="calDot expenseDot"></i> Expense</span><span><i class="calDot todayDot"></i> Today</span></div></div><div class="sectionTitle">Projected cash</div><div class="card"><div class="row"><div><div class="muted">Current liquid</div><div class="stat">${money(projectedCashBreakdown(d.last).starting)}</div></div><div style="text-align:right"><div class="muted">Month-end projection</div><div class="stat ${projectedCashBreakdown(d.last).projected<0?'expense':'income'}">${money(projectedCashBreakdown(d.last).projected)}</div></div></div><div class="row" style="margin-top:12px"><span class="muted">Scheduled income</span><b class="income">+${money(projectedCashBreakdown(d.last).income)}</b></div><div class="row"><span class="muted">Scheduled expenses</span><b class="expense">−${money(projectedCashBreakdown(d.last).expense)}</b></div><div class="row"><span class="muted">Net scheduled change</span><b class="${projectedCashBreakdown(d.last).net<0?'expense':'income'}">${projectedCashBreakdown(d.last).net<0?'−':'+'}${money(Math.abs(projectedCashBreakdown(d.last).net))}</b></div><div class="muted" style="margin-top:10px;font-size:12px">Based on ${projectedCashBreakdown(d.last).count} scheduled recurring movement${projectedCashBreakdown(d.last).count===1?'':'s'} through month-end. Recorded transactions are already included in current liquid. Financial commitments are shown separately and are not automatically included here.</div></div><div class="sectionTitle">Selected day</div><div id="calendarDetail"><div class="card"><div class="empty">Tap a date to see its money movements.</div></div></div>`}catch(e){document.getElementById('app').innerHTML=`<h1>Cash flow calendar</h1><div class="card"><div class="empty">Calendar could not load.<br><small>${esc(e&&e.message?e.message:String(e))}</small></div></div>`}}
-function cashCalendarDate(ds){let d=calendarData(ds.slice(0,7)),events=d.events[ds]||[],proj=projectedBalanceForDate(ds),totalIn=events.filter(e=>e.type==='income').reduce((a,x)=>a+x.amount,0),totalOut=events.filter(e=>e.type==='expense').reduce((a,x)=>a+x.amount,0);document.getElementById('calendarDetail').innerHTML=`<div class="card"><div class="row"><div><b>${esc(new Date(ds+'T12:00:00').toLocaleDateString('en-BD',{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</b><div class="muted">Projected balance: <b class="${proj<0?'expense':'income'}">${money(proj)}</b></div></div></div>${events.length?events.map(e=>`<div class="tx"><div class="dot">${e.type==='income'?'↗':'↘'}</div><div class="txmain"><div class="txname">${esc(e.name||e.note||e.category||'Transaction')}</div><div class="txmeta">${e.kind==='rec'?'Scheduled · '+frequencyLabel(e.frequency):'Recorded · '+esc(e.category||'Other')}</div></div><div class="amount ${e.type==='income'?'income':'expense'}">${e.type==='income'?'+':'−'}${money(e.amount)}</div></div>`).join(''):`<div class="empty">No money movement on this date.</div>`}<div class="row" style="margin-top:10px"><span class="muted">Expected in</span><b class="income">+${money(totalIn)}</b></div><div class="row"><span class="muted">Expected out</span><b class="expense">−${money(totalOut)}</b></div>${proj<Math.max(0,+state.safety?.reserve||0)?`<div class="safeWarn" style="margin-top:10px">⚠️ Projected balance is below your protected reserve.</div>`:''}</div>`}
+function calendarDayHtml(ds,events){let today=date(),day=Number(ds.slice(-2)),hasIncome=events.some(e=>e.type==='income'),hasExpense=events.some(e=>e.type==='expense'),hasTransfer=events.some(e=>e.type==='transfer');return `<button type="button" class="calDay ${ds===today?'today':''}" onclick="window.cashCalendarDate('${ds}')"><b>${day}</b><div class="calDots">${hasIncome?'<i class="calDot incomeDot"></i>':''}${hasExpense?'<i class="calDot expenseDot"></i>':''}${hasTransfer?'<i class="calDot transferDot"></i>':''}</div></button>`}
+function cashCalendarPage(month){try{let mk=month||date().slice(0,7),d=calendarData(mk),firstDow=new Date(d.first+'T12:00:00').getDay(),cells=[];for(let i=0;i<firstDow;i++)cells.push('<div class="calBlank"></div>');for(let day=1;day<=d.lastDay;day++){let ds=`${mk}-${String(day).padStart(2,'0')}`;cells.push(calendarDayHtml(ds,d.events[ds]||[]))}while(cells.length%7)cells.push('<div class="calBlank"></div>');let monthName=new Date(d.first+'T12:00:00').toLocaleDateString('en-BD',{month:'long',year:'numeric'}),prevMonth=isoAddDays(d.first,-1).slice(0,7),nextMonth=isoAddDays(d.last,1).slice(0,7);document.getElementById('app').innerHTML=`<h1>Cash flow calendar</h1><div class="card"><div class="calHead"><button type="button" class="btn secondary" onclick="window.cashCalendarPage('${prevMonth}')">‹</button><b>${esc(monthName)}</b><button type="button" class="btn secondary" onclick="window.cashCalendarPage('${nextMonth}')">›</button></div><div class="calWeek"><b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b></div><div class="calGrid">${cells.join('')}</div><div class="calLegend"><span><i class="calDot incomeDot"></i> Income</span><span><i class="calDot expenseDot"></i> Expense</span><span><i class="calDot transferDot"></i> Transfer</span><span><i class="calDot todayDot"></i> Today</span></div></div><div class="sectionTitle">Projected cash</div><div class="card"><div class="row"><div><div class="muted">Current liquid</div><div class="stat">${money(projectedCashBreakdown(d.last).starting)}</div></div><div style="text-align:right"><div class="muted">Month-end projection</div><div class="stat ${projectedCashBreakdown(d.last).projected<0?'expense':'income'}">${money(projectedCashBreakdown(d.last).projected)}</div></div></div><div class="row" style="margin-top:12px"><span class="muted">Scheduled income</span><b class="income">+${money(projectedCashBreakdown(d.last).income)}</b></div><div class="row"><span class="muted">Scheduled expenses</span><b class="expense">−${money(projectedCashBreakdown(d.last).expense)}</b></div><div class="row"><span class="muted">Net scheduled change</span><b class="${projectedCashBreakdown(d.last).net<0?'expense':'income'}">${projectedCashBreakdown(d.last).net<0?'−':'+'}${money(Math.abs(projectedCashBreakdown(d.last).net))}</b></div><div class="muted" style="margin-top:10px;font-size:12px">Based on ${projectedCashBreakdown(d.last).count} scheduled recurring movement${projectedCashBreakdown(d.last).count===1?'':'s'} through month-end. Recorded transactions are already included in current liquid. Financial commitments are shown separately and are not automatically included here.</div></div><div class="sectionTitle">Selected day</div><div id="calendarDetail"><div class="card"><div class="empty">Tap a date to see its money movements.</div></div></div>`}catch(e){document.getElementById('app').innerHTML=`<h1>Cash flow calendar</h1><div class="card"><div class="empty">Calendar could not load.<br><small>${esc(e&&e.message?e.message:String(e))}</small></div></div>`}}
+function cashCalendarDate(ds){let d=calendarData(ds.slice(0,7)),events=d.events[ds]||[],proj=projectedBalanceForDate(ds),totalIn=events.filter(e=>e.type==='income').reduce((a,x)=>a+x.amount,0),totalOut=events.filter(e=>e.type==='expense').reduce((a,x)=>a+x.amount,0);document.getElementById('calendarDetail').innerHTML=`<div class="card"><div class="row"><div><b>${esc(new Date(ds+'T12:00:00').toLocaleDateString('en-BD',{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</b><div class="muted">Projected balance: <b class="${proj<0?'expense':'income'}">${money(proj)}</b></div></div></div>${events.length?events.map(e=>{if(e.type==='transfer'){let fa=state.accounts.find(a=>a.id===e.fromAccountId),ta=state.accounts.find(a=>a.id===e.toAccountId);return `<div class="tx"><div class="dot">⇄</div><div class="txmain"><div class="txname">${esc(e.note||'Account transfer')}</div><div class="txmeta">${esc(fa?fa.name:'Unknown')} → ${esc(ta?ta.name:'Unknown')} · Recorded</div></div><div class="amount">${money(e.amount)}</div></div>`}return `<div class="tx"><div class="dot">${e.type==='income'?'↗':'↘'}</div><div class="txmain"><div class="txname">${esc(e.name||e.note||e.category||'Transaction')}</div><div class="txmeta">${e.kind==='rec'?'Scheduled · '+frequencyLabel(e.frequency):'Recorded · '+esc(e.category||'Other')}</div></div><div class="amount ${e.type==='income'?'income':'expense'}">${e.type==='income'?'+':'−'}${money(e.amount)}</div></div>`}).join(''):`<div class="empty">No money movement on this date.</div>`}<div class="row" style="margin-top:10px"><span class="muted">Expected in</span><b class="income">+${money(totalIn)}</b></div><div class="row"><span class="muted">Expected out</span><b class="expense">−${money(totalOut)}</b></div>${proj<Math.max(0,+state.safety?.reserve||0)?`<div class="safeWarn" style="margin-top:10px">⚠️ Projected balance is below your protected reserve.</div>`:''}</div>`}
 window.cashCalendarPage=cashCalendarPage;window.cashCalendarDate=cashCalendarDate;
 function recurringPage(){let f=recurringForecast(30), grouped={};f.items.forEach(x=>(grouped[x.dueDate]??=[]).push(x));document.getElementById('app').innerHTML=`<h1>Recurring & forecast</h1><div class="card"><div class="muted">Next 30 days</div><div class="smartGrid"><div class="smartCard"><div class="muted">Income</div><div class="smartValue income">${money(f.income)}</div></div><div class="smartCard"><div class="muted">Expenses</div><div class="smartValue expense">${money(f.expense)}</div></div></div><div class="row" style="margin-top:12px"><span class="muted">Current liquid</span><b>${money(f.cash)}</b></div><div class="row" style="margin-top:8px"><span class="muted">Projected liquid</span><b class="${f.projected<0?'expense':'income'}">${money(f.projected)}</b></div></div><button class="btn block" style="margin-top:12px" onclick="recurringForm()">＋ Add recurring</button><div class="sectionTitle">Upcoming</div>${f.items.length?Object.entries(grouped).map(([d,items])=>`<div class="card" style="margin-bottom:10px"><div class="row"><b>${esc(new Date(d+'T12:00:00').toLocaleDateString('en-BD',{day:'numeric',month:'short'}))}</b><span class="muted">${items.length} item${items.length>1?'s':''}</span></div>${items.map(x=>`<div class="tx"><div class="dot">${x.type==='income'?'↗':'↘'}</div><div class="txmain"><div class="txname">${esc(x.name||x.category||'Recurring')}</div><div class="txmeta">${esc(x.category||'Other')} · ${frequencyLabel(x.frequency)}</div></div><div class="amount ${x.type==='income'?'income':'expense'}">${x.type==='income'?'+':'−'}${money(x.amount)}</div></div>`).join('')}</div>`).join(''):`<div class="card"><div class="empty">No recurring items in the next 30 days.</div></div>`}<div class="sectionTitle">Your recurring items</div>${state.recurring.length?state.recurring.map(r=>`<div class="card" style="margin-bottom:10px"><div class="row"><div><b>${esc(r.name||r.category||'Recurring')}</b><div class="muted">${frequencyLabel(r.frequency)} · next ${esc(r.nextDate)}</div></div><b class="${r.type==='income'?'income':'expense'}">${r.type==='income'?'+':'−'}${money(r.amount)}</b></div><div class="actions"><button class="btn secondary" onclick="recordRecurring('${r.id}')">Record now</button><button class="btn danger" onclick="deleteRecurring('${r.id}')">Delete</button></div></div>`).join(''):`<div class="card"><div class="empty">Nothing scheduled yet.</div></div>`}<div class="muted" style="margin-top:14px">Forecast items do not change your account balance until you record them.</div>`}
 function recurringForm(rid){let r=state.recurring.find(x=>x.id===rid);let opts=state.accounts.map(a=>`<option value="${a.id}" ${r&&r.accountId===a.id?'selected':''}>${esc(a.name)}</option>`).join('');openSheet(`<div class="handle"></div><h2>${r?'Edit recurring':'Add recurring'}</h2><div class="seg"><button id="ri" class="${!r||r.type==='income'?'active':''}" onclick="setRecurringType('income')">Income</button><button id="re" class="${r&&r.type==='expense'?'active':''}" onclick="setRecurringType('expense')">Expense</button></div><div class="field"><label>Name</label><input id="rn" value="${r?esc(r.name||''):''}" placeholder="Salary, Rent, Internet..."></div><div class="field"><label>Amount</label><input id="ra" type="number" inputmode="decimal" min="0.01" step="0.01" value="${r?r.amount:''}" placeholder="0"></div><div class="field"><label>Category</label><select id="rc">${categoryOptions(r?r.category:'Bills')}</select></div><div class="field"><label>Frequency</label><select id="rf"><option value="weekly" ${r&&r.frequency==='weekly'?'selected':''}>Weekly</option><option value="monthly" ${!r||r.frequency==='monthly'?'selected':''}>Monthly</option><option value="yearly" ${r&&r.frequency==='yearly'?'selected':''}>Yearly</option></select></div><div class="field"><label>Next date</label><input id="rd" type="date" value="${r?esc(r.nextDate):date()}"></div><div class="field"><label>Account</label><select id="rac">${opts}</select></div><div class="field"><label>Note</label><input id="rn2" value="${r?esc(r.note||''):''}" placeholder="Optional"></div><div class="actions"><button class="btn secondary" onclick="cancelForm()">Cancel</button><button class="btn" onclick="saveRecurring('${r?r.id:''}')">${r?'Save changes':'Save recurring'}</button></div>`);window._recurringType=r?r.type:'income';bindDirtyTracking()}
@@ -457,23 +570,418 @@ function assetsPage(){let el=document.getElementById('app');el.innerHTML=`<h1>As
 function assetForm(aid){let a=state.assets.find(x=>x.id===aid);openSheet(`<div class="handle"></div><h2>${a?'Edit asset':'Add asset'}</h2><div class="field"><label>Name</label><input id="xn" value="${a?esc(a.name):''}" placeholder="Gold, Laptop, Bike..."></div><div class="field"><label>Current value</label><input id="xa" type="number" min="0" step="0.01" inputmode="decimal" value="${a?Number(a.amount)||0:''}" placeholder="0"></div><div class="muted">Changing an asset value updates Assets and Net Worth only. It does not create income or expense.</div><div class="actions"><button class="btn secondary" onclick="cancelForm()">Cancel</button><button class="btn" onclick="saveAsset('${aid||''}')">${a?'Save changes':'Save asset'}</button></div>`);bindDirtyTracking()}
 function saveAsset(aid){let n=document.getElementById('xn').value.trim(),a=+document.getElementById('xa').value;if(!n){toast('Enter an asset name');return}if(!Number.isFinite(a)||a<0){toast('Enter a valid value of 0 or more');return}if(aid){let x=state.assets.find(x=>x.id===aid);if(!x)return;Object.assign(x,{name:n,amount:a})}else state.assets.push({id:id(),name:n,amount:a});save();closeSheet(true);assetsPage();toast(aid?'Asset updated':'Asset added')}
 function deleteAsset(aid){let a=state.assets.find(x=>x.id===aid);if(!a)return;if(!confirm(`Delete ${a.name}?\n\nThis will remove ${money(a.amount)} from Assets and Net Worth. It will not delete any transaction.`))return;state.assets=state.assets.filter(x=>x.id!==aid);save();assetsPage();toast('Asset deleted')}
-function debtPage(){document.getElementById('app').innerHTML=`<h1>Debt</h1><button class="btn block" onclick="debtForm()">+ Add debt</button><div class="sectionTitle">Your liabilities</div>${state.debts.length?state.debts.map(a=>`<div class="card" style="margin-bottom:10px"><div class="row"><b>${esc(a.name)}</b><strong class="expense">${money(a.amount)}</strong></div></div>`).join(''):`<div class="card"><div class="empty">No debt recorded.</div></div>`}`}
-function debtForm(){openSheet(`<div class="handle"></div><h2>Add debt</h2><div class="field"><label>Name</label><input id="dn" placeholder="Loan, credit card..."></div><div class="field"><label>Outstanding amount</label><input id="da" type="number" inputmode="decimal"></div><button class="btn block" onclick="addDebt()">Save debt</button>`)}
-function addDebt(){let n=document.getElementById('dn').value.trim(),a=+document.getElementById('da').value;if(!n||!(a>=0)){toast('Fill the debt details');return}state.debts.push({id:id(),name:n,amount:a});save();closeSheet();debtPage()}
-function backupPayload(){return{app:'Personal CFO',backupVersion:1,createdAt:new Date().toISOString(),state:state}}
+function debtPage(){
+    let totalOriginal = state.debts.reduce((a,x)=>a+(+x.original||0),0);
+    let totalPaid = state.debts.reduce((a,x)=>a+(+x.paidAmount||0),0);
+    let totalRemaining = state.debts.reduce((a,x)=>a+(+x.remaining||0),0);
+    document.getElementById('app').innerHTML=`
+    <h1>Debt</h1>
+    <button class="btn block" onclick="debtForm()">+ Add debt</button>
+    <div class="card" style="margin-top:12px">
+        <div class="muted">Liabilities summary</div>
+        <div class="smartGrid" style="margin-top:8px">
+            <div class="smartCard"><div class="muted">Total original</div><div class="smartValue">${money(totalOriginal)}</div></div>
+            <div class="smartCard"><div class="muted">Total paid</div><div class="smartValue income">${money(totalPaid)}</div></div>
+            <div class="smartCard" style="grid-column:1/-1"><div class="muted">Remaining liability</div><div class="smartValue expense">${money(totalRemaining)}</div></div>
+        </div>
+    </div>
+    <div class="sectionTitle">Your liabilities</div>
+    ${state.debts.length ? state.debts.map(d=>`
+        <div class="card" style="margin-bottom:10px;cursor:pointer" onclick="debtDetail('${d.id}')">
+            <div class="row">
+                <div style="min-width:0">
+                    <b>${esc(d.name)}</b>
+                    <div class="muted">Original: ${money(d.original)} · Paid: ${money(d.paidAmount)}</div>
+                    ${d.note?`<div class="muted" style="margin-top:3px">${esc(d.note)}</div>`:''}
+                </div>
+                <div style="text-align:right">
+                    <strong class="${d.remaining<=0?'income':'expense'}">${money(d.remaining)}</strong>
+                    <div class="muted" style="font-size:11px">${d.remaining<=0?'🟢 Paid off':'Active'}</div>
+                </div>
+            </div>
+            <div class="actions" style="margin-top:10px" onclick="event.stopPropagation()">
+                <button class="btn secondary" onclick="debtPayForm('${d.id}')">Record payment</button>
+                <button class="btn secondary" onclick="debtForm('${d.id}')">Edit</button>
+            </div>
+        </div>
+    `).join('') : `<div class="card"><div class="empty">No debt recorded.</div></div>`}
+    `;
+}
+
+function debtDetail(id){
+    let d = state.debts.find(x=>x.id===id);
+    if(!d) { debtPage(); return; }
+    let paymentsHtml = d.payments && d.payments.length ? d.payments.map(p=>{
+        let acc = state.accounts.find(a=>a.id===p.accountId);
+        return `<div class="tx">
+            <div class="dot">↙</div>
+            <div class="txmain">
+                <div class="txname">${money(p.amount)} payment</div>
+                <div class="txmeta">${esc(p.date)} · Account: ${esc(acc?acc.name:'Unknown')}${p.note?' · '+esc(p.note):''}</div>
+            </div>
+            <div style="display:flex;gap:6px">
+                <button class="btn secondary" style="padding:6px 10px;font-size:12px" onclick="debtPaymentEditForm('${d.id}','${p.id}')">Edit</button>
+                <button class="btn danger" style="padding:6px 10px;font-size:12px" onclick="deleteDebtPayment('${d.id}','${p.id}')">Delete</button>
+            </div>
+        </div>`;
+    }).join('') : `<div class="empty">No payments recorded yet.</div>`;
+
+    document.getElementById('app').innerHTML=`
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <button class="iconbtn" onclick="debtPage()" style="width:36px;height:36px;font-size:16px">‹</button>
+        <h1 style="margin:0">Debt Detail</h1>
+    </div>
+    <div class="card">
+        <div class="row">
+            <div>
+                <div class="smallCaps">Creditor / Name</div>
+                <div style="font-size:20px;font-weight:800;margin-top:4px">${esc(d.name)}</div>
+            </div>
+            <div style="text-align:right">
+                <div class="smallCaps">Remaining</div>
+                <div style="font-size:22px;font-weight:800;color:${d.remaining<=0?'var(--green)':'var(--red)'};margin-top:4px">${money(d.remaining)}</div>
+            </div>
+        </div>
+        <div class="safeBreakdown" style="margin-top:14px">
+            <div class="safeLine"><span>Original amount</span><b>${money(d.original)}</b></div>
+            <div class="safeLine"><span>Total paid</span><b class="income">${money(d.paidAmount)}</b></div>
+            <div class="safeLine"><span>Remaining debt</span><b class="expense">${money(d.remaining)}</b></div>
+            <div class="safeLine"><span>Created date</span><b>${esc(d.created ? new Date(d.created).toISOString().slice(0,10) : '—')}</b></div>
+            ${d.note?`<div class="safeLine"><span>Note</span><b>${esc(d.note)}</b></div>`:''}
+        </div>
+        <div class="actions" style="margin-top:14px">
+            <button class="btn block" onclick="debtPayForm('${d.id}')">＋ Record payment</button>
+        </div>
+        <div class="actions" style="margin-top:8px">
+            <button class="btn secondary" onclick="debtForm('${d.id}')">Edit debt</button>
+            <button class="btn danger" onclick="deleteDebt('${d.id}')">Delete debt</button>
+        </div>
+    </div>
+    <div class="sectionTitle">Payment history</div>
+    <div class="card">
+        ${paymentsHtml}
+    </div>
+    `;
+}
+
+function debtForm(id){
+    let d = state.debts.find(x=>x.id===id);
+    openSheet(`
+        <div class="handle"></div>
+        <h2>${d?'Edit debt':'Add debt'}</h2>
+        <div class="field">
+            <label>Name / Creditor</label>
+            <input id="dn" value="${d?esc(d.name):''}" placeholder="Bank loan, Friend, Credit Card..." required>
+        </div>
+        <div class="field">
+            <label>Original amount</label>
+            <input id="da" type="number" min="0" step="0.01" inputmode="decimal" value="${d?d.original:''}" placeholder="0" required>
+        </div>
+        <div class="field">
+            <label>Note (optional)</label>
+            <input id="dnote" value="${d?esc(d.note||''):''}" placeholder="Optional details">
+        </div>
+        <div class="muted">Changing original amount recalculates remaining debt based on recorded payments (${d?money(d.paidAmount):'0'} paid).</div>
+        <div class="actions">
+            <button class="btn secondary" onclick="cancelForm()">Cancel</button>
+            <button class="btn" onclick="saveDebt('${id||''}')">${d?'Save changes':'Save debt'}</button>
+        </div>
+    `);
+    bindDirtyTracking();
+}
+
+function saveDebt(debtId){
+    let name = document.getElementById('dn').value.trim();
+    let original = +document.getElementById('da').value;
+    let note = document.getElementById('dnote').value.trim();
+    if(!name) { toast('Enter a debt name'); return; }
+    if(!Number.isFinite(original) || original < 0) { toast('Enter a valid original amount of 0 or more'); return; }
+    
+    if(debtId){
+        let d = state.debts.find(x=>x.id===debtId);
+        if(!d) return;
+        if(original < d.paidAmount) {
+            toast('Original amount cannot be less than already paid amount (' + money(d.paidAmount) + ')');
+            return;
+        }
+        d.name = name;
+        d.original = +original.toFixed(2);
+        d.note = note;
+        d.remaining = +Math.max(0, d.original - d.paidAmount).toFixed(2);
+        save();
+        closeSheet(true);
+        debtDetail(debtId);
+        toast('Debt updated');
+    } else {
+        let newDebt = {
+            id: id(),
+            name,
+            original: +original.toFixed(2),
+            paidAmount: 0,
+            remaining: +original.toFixed(2),
+            note,
+            created: Date.now(),
+            payments: []
+        };
+        state.debts.push(newDebt);
+        save();
+        closeSheet(true);
+        debtPage();
+        toast('Debt added');
+    }
+}
+
+function debtPayForm(id){
+    let d = state.debts.find(x=>x.id===id);
+    if(!d) return;
+    let accounts = state.accounts.filter(a=>a.isActive!==false);
+    if(!accounts.length) { toast('Create an account first'); return; }
+    let opts = accounts.map(a=>`<option value="${esc(a.id)}">${esc(a.name)} (${money(a.balance)})</option>`).join('');
+    
+    openSheet(`
+        <div class="handle"></div>
+        <h2>Record debt payment</h2>
+        <div class="card" style="margin-bottom:12px">
+            <div class="muted">Creditor</div>
+            <div style="font-size:16px;font-weight:700;margin-top:2px">${esc(d.name)}</div>
+            <div class="muted" style="margin-top:6px">Remaining debt: <b>${money(d.remaining)}</b></div>
+        </div>
+        <div class="field">
+            <label>Payment amount</label>
+            <input id="dpa" type="number" min="0.01" max="${d.remaining}" step="0.01" inputmode="decimal" value="${d.remaining}" required>
+        </div>
+        <div class="field">
+            <label>Payment date</label>
+            <input id="dpdate" type="date" value="${date()}" required>
+        </div>
+        <div class="field">
+            <label>Paid from account</label>
+            <select id="dpacc">${opts}</select>
+        </div>
+        <div class="field">
+            <label>Note (optional)</label>
+            <input id="dpnote" placeholder="Optional payment note">
+        </div>
+        <div class="muted">Principal repayment decreases your account balance and debt remaining. It does not affect normal expenses or budget spending.</div>
+        <div class="actions">
+            <button class="btn secondary" onclick="cancelForm()">Cancel</button>
+            <button class="btn" onclick="recordDebtPayment('${d.id}')">Confirm payment</button>
+        </div>
+    `);
+    bindDirtyTracking();
+}
+
+function recordDebtPayment(debtId){
+    let d = state.debts.find(x=>x.id===debtId);
+    if(!d) return;
+    let amount = +document.getElementById('dpa').value;
+    let payDate = document.getElementById('dpdate').value;
+    let accountId = document.getElementById('dpacc').value;
+    let note = document.getElementById('dpnote').value.trim();
+
+    if(!(amount > 0)) { toast('Enter a valid amount greater than 0'); return; }
+    if(amount > d.remaining + 0.005) { toast('Payment cannot exceed remaining debt (' + money(d.remaining) + ')'); return; }
+    let acc = state.accounts.find(a=>a.id===accountId);
+    if(!acc) { toast('Select a valid account'); return; }
+    if(!payDate) { toast('Choose a valid payment date'); return; }
+
+    amount = +amount.toFixed(2);
+    acc.balance = +(acc.balance - amount).toFixed(2);
+
+    let tid = id();
+    let txObj = {
+        id: tid,
+        type: 'debt_payment',
+        amount,
+        category: 'Debt Repayment',
+        date: payDate,
+        note: note || ('Payment to ' + d.name),
+        accountId: acc.id,
+        debtId: d.id,
+        created: Date.now()
+    };
+    state.tx.push(txObj);
+
+    let pid = id();
+    let paymentObj = {
+        id: pid,
+        amount,
+        date: payDate,
+        accountId: acc.id,
+        note,
+        transactionId: tid
+    };
+    if(!Array.isArray(d.payments)) d.payments = [];
+    d.payments.push(paymentObj);
+
+    d.paidAmount = +(d.paidAmount + amount).toFixed(2);
+    d.remaining = +Math.max(0, d.original - d.paidAmount).toFixed(2);
+
+    save();
+    closeSheet(true);
+    debtDetail(d.id);
+    toast('Payment of ' + money(amount) + ' recorded');
+}
+
+function debtPaymentEditForm(debtId, paymentId){
+    let d = state.debts.find(x=>x.id===debtId);
+    if(!d) return;
+    let p = d.payments.find(x=>x.id===paymentId);
+    if(!p) return;
+    let accounts = state.accounts.filter(a=>a.isActive!==false);
+    let opts = accounts.map(a=>`<option value="${esc(a.id)}" ${a.id===p.accountId?'selected':''}>${esc(a.name)}</option>`).join('');
+
+    openSheet(`
+        <div class="handle"></div>
+        <h2>Edit debt payment</h2>
+        <div class="field">
+            <label>Payment amount</label>
+            <input id="edpa" type="number" min="0.01" step="0.01" inputmode="decimal" value="${p.amount}" required>
+        </div>
+        <div class="field">
+            <label>Payment date</label>
+            <input id="edpdate" type="date" value="${esc(p.date)}" required>
+        </div>
+        <div class="field">
+            <label>Account</label>
+            <select id="edpacc">${opts}</select>
+        </div>
+        <div class="field">
+            <label>Note</label>
+            <input id="edpnote" value="${esc(p.note||'')}" placeholder="Optional note">
+        </div>
+        <div class="actions">
+            <button class="btn secondary" onclick="cancelForm()">Cancel</button>
+            <button class="btn" onclick="saveDebtPaymentEdit('${d.id}','${p.id}')">Save changes</button>
+        </div>
+    `);
+    bindDirtyTracking();
+}
+
+function saveDebtPaymentEdit(debtId, paymentId){
+    let d = state.debts.find(x=>x.id===debtId);
+    if(!d) return;
+    let p = d.payments.find(x=>x.id===paymentId);
+    if(!p) return;
+
+    let tx = state.tx.find(t=>t.id===p.transactionId);
+    if(!tx) {
+        toast('Linked transaction not found. Aborting update.');
+        alert('Error: The linked financial transaction for this payment could not be found. Update aborted to preserve integrity.');
+        closeSheet(true);
+        return;
+    }
+
+    let newAmount = +document.getElementById('edpa').value;
+    let newDate = document.getElementById('edpdate').value;
+    let newAccountId = document.getElementById('edpacc').value;
+    let newNote = document.getElementById('edpnote').value.trim();
+
+    if(!(newAmount > 0)) { toast('Enter a valid amount'); return; }
+    let maxAllowed = d.remaining + p.amount;
+    if(newAmount > maxAllowed + 0.005) { toast('Amount exceeds maximum allowed (' + money(maxAllowed) + ')'); return; }
+    let newAcc = state.accounts.find(a=>a.id===newAccountId);
+    if(!newAcc) { toast('Select a valid account'); return; }
+    if(!newDate) { toast('Choose a valid date'); return; }
+
+    newAmount = +newAmount.toFixed(2);
+
+    let oldAcc = state.accounts.find(a=>a.id===p.accountId);
+    if(oldAcc) {
+        oldAcc.balance = +(oldAcc.balance + p.amount).toFixed(2);
+    }
+    newAcc.balance = +(newAcc.balance - newAmount).toFixed(2);
+
+    tx.amount = newAmount;
+    tx.date = newDate;
+    tx.accountId = newAcc.id;
+    tx.note = newNote;
+
+    p.amount = newAmount;
+    p.date = newDate;
+    p.accountId = newAcc.id;
+    p.note = newNote;
+
+    d.paidAmount = +d.payments.reduce((sum,item)=>sum+item.amount,0).toFixed(2);
+    d.remaining = +Math.max(0, d.original - d.paidAmount).toFixed(2);
+
+    save();
+    closeSheet(true);
+    debtDetail(d.id);
+    toast('Payment updated');
+}
+
+function deleteDebtPayment(debtId, paymentId){
+    let d = state.debts.find(x=>x.id===debtId);
+    if(!d) return;
+    let p = d.payments.find(x=>x.id===paymentId);
+    if(!p) return;
+
+    let tx = state.tx.find(t=>t.id===p.transactionId);
+    if(!tx) {
+        toast('Linked transaction not found. Aborting deletion.');
+        alert('Error: The linked financial transaction for this payment could not be found. Deletion aborted to preserve integrity.');
+        return;
+    }
+
+    if(!confirm()) return;
+
+    let acc = state.accounts.find(a=>a.id===p.accountId);
+    if(acc) {
+        acc.balance = +(acc.balance + p.amount).toFixed(2);
+    }
+
+    state.tx = state.tx.filter(t=>t.id!==p.transactionId);
+    d.payments = d.payments.filter(x=>x.id!==paymentId);
+
+    d.paidAmount = +d.payments.reduce((sum,item)=>sum+item.amount,0).toFixed(2);
+    d.remaining = +Math.max(0, d.original - d.paidAmount).toFixed(2);
+
+    save();
+    debtDetail(d.id);
+    toast('Payment deleted and account balance restored');
+}
+function deleteDebt(id){
+    let d = state.debts.find(x=>x.id===id);
+    if(!d) return;
+
+    if(d.payments && d.payments.length > 0){
+        toast('Cannot delete debt with payment history');
+        alert(`Debt "${d.name}" has ${d.payments.length} payment record(s). Debts with payment history cannot be deleted to preserve financial integrity.`);
+        return;
+    }
+
+    if(!confirm(`Delete debt "${d.name}"?`)) return;
+
+    state.debts = state.debts.filter(x=>x.id!==id);
+    save();
+    debtPage();
+    toast('Debt deleted');
+}
+function backupPayload(){return{app:'Personal CFO',backupVersion:2,createdAt:new Date().toISOString(),dataSummary:{accounts:state.accounts.length,transactions:state.tx.length,debts:state.debts.length,assets:state.assets.length,budgets:state.budgets.length,recurring:state.recurring.length,commitments:state.commitments.length},state:state}}
+function backupAgeText(){let v=Number(localStorage.getItem('personal_cfo_last_backup')||0);if(!v)return '⚠️ No verified external backup recorded yet';let days=Math.floor((Date.now()-v)/86400000);if(days<=0)return '✅ Backup verified today';if(days===1)return '✅ Backup verified yesterday';if(days<=7)return '✅ Backup verified '+days+' days ago';return '⚠️ Backup is '+days+' days old — make a new backup'}
 function downloadText(name,text,mime){let stamp=new Date().toISOString().replace(/[:.]/g,'-');let dot=name.lastIndexOf('.');let finalName=dot>0?name.slice(0,dot)+'_'+stamp+name.slice(dot):name+'_'+stamp;if(window.Android&&Android.saveTextFile){try{let b=btoa(unescape(encodeURIComponent(text)));Android.saveTextFile(finalName,mime,b);let folder=finalName.toLowerCase().includes('backup')?'Download/Personal_CFO/Backups':finalName.toLowerCase().includes('report')?'Download/Personal_CFO/Reports':'Download/Personal_CFO/Exports';toast('Saved to '+folder);return}catch(e){}}let blob=new Blob([text],{type:mime}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=finalName;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast(finalName+' downloaded')}
-function openSettings(){openSheet(`<div class="handle"></div><h2>Settings</h2><div class="card"><div class="muted">Your financial data stays on this phone unless you export a backup.</div><div class="muted" style="margin-top:8px">📁 Export location: <b>Download/Personal_CFO</b><br>Backups, Reports and Exports are kept in separate folders.</div><div class="sectionTitle" style="margin-top:14px">Backup & restore</div><button class="btn block" onclick="backup()">💾 Full backup</button><div style="margin-top:8px"><label class="btn secondary block" style="text-align:center;display:block">📥 Restore backup<input id="restoreInput" type="file" accept="application/json,.json" onchange="restore(this.files[0])" style="display:none"></label></div><div class="muted" style="margin-top:7px">Backup includes transactions, accounts, budgets, recurring items, assets, debt and safety settings.</div></div><div class="card" style="margin-top:10px"><div class="sectionTitle" style="margin-top:0">Exports</div><button class="btn secondary block" onclick="exportCSV()">📄 Export transactions CSV</button><div style="margin-top:8px"><button class="btn secondary block" onclick="exportReport()">📊 Export financial report</button></div></div><div class="card" style="margin-top:10px"><div class="sectionTitle" style="margin-top:0">Data controls</div><button class="btn danger block" onclick="wipe()">🗑️ Delete all data</button><div class="muted" style="margin-top:7px">This permanently resets the data stored by Personal CFO on this phone.</div></div></div>`)}
-function backup(){let payload=backupPayload();downloadText('personal-cfo-backup.json',JSON.stringify(payload,null,2),'application/json')}
+function openSettings(){openSheet(`<div class="handle"></div><h2>Settings</h2><div class="card"><div class="muted">Your financial data stays on this phone unless you export a backup.</div><div class="muted" style="margin-top:8px">🛡️ <b>Important:</b> a backup kept only inside the app can be removed when the app is uninstalled. Personal CFO now asks you to choose a user-visible location for every full backup.</div><div class="sectionTitle" style="margin-top:14px">Backup & restore</div><div id="backupStatus" class="muted" style="margin-bottom:10px">${backupAgeText()}</div><button class="btn block" onclick="backup()">💾 Create external backup</button><div style="margin-top:8px"><label class="btn secondary block" style="text-align:center;display:block">📥 Restore backup<input id="restoreInput" type="file" accept="application/json,.json" onchange="restore(this.files[0])" style="display:none"></label></div><div class="muted" style="margin-top:7px">Choose Downloads, Documents, your SD card, or a cloud provider such as Google Drive when Android shows the save location. Keep the file outside Personal CFO app storage.</div></div><div class="card" style="margin-top:10px"><div class="sectionTitle" style="margin-top:0">Exports</div><button class="btn secondary block" onclick="exportCSV()">📄 Export transactions CSV</button><div style="margin-top:8px"><button class="btn secondary block" onclick="exportReport()">📊 Export financial report</button></div></div><div class="card" style="margin-top:10px"><div class="sectionTitle" style="margin-top:0">Data controls</div><button class="btn danger block" onclick="wipe()">🗑️ Delete all data</button><div class="muted" style="margin-top:7px">This permanently resets the data stored by Personal CFO on this phone.</div></div></div>`)}
+function backup(){let payload=backupPayload(),text=JSON.stringify(payload,null,2),stamp=new Date().toISOString().replace(/[:.]/g,'-'),name='Personal_CFO_Backup_'+stamp+'.json';if(window.Android&&Android.createBackupFile){try{let b=btoa(unescape(encodeURIComponent(text)));Android.createBackupFile(name,'application/json',b);toast('Choose a safe external location for the backup');return}catch(e){toast('Could not open backup save dialog')}}let blob=new Blob([text],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);localStorage.setItem('personal_cfo_last_backup',String(Date.now()));toast(name+' downloaded')}
+function onAndroidBackupResult(ok,msg){if(ok){localStorage.setItem('personal_cfo_last_backup',String(Date.now()));toast('✅ '+msg);let el=document.getElementById('backupStatus');if(el)el.textContent=backupAgeText()}else toast('⚠️ '+msg)}
 function validateBackup(x){let s=x&&x.state?x.state:x;if(!s||!Array.isArray(s.accounts)||!Array.isArray(s.tx))return null;if(!Array.isArray(s.assets))s.assets=[];if(!Array.isArray(s.debts))s.debts=[];if(!Array.isArray(s.budgets))s.budgets=[];if(!Array.isArray(s.recurring))s.recurring=[];if(!Array.isArray(s.commitments))s.commitments=[];s.commitments.forEach(c=>{if(!Array.isArray(c.paymentIds))c.paymentIds=[];if(!Number.isFinite(+c.paidTotal))c.paidTotal=c.status==='settled'?(+c.amount||0):0});if(!s.safety||typeof s.safety!=='object')s.safety={reserve:0};delete s.goals;delete s.safety.goal;return s}
 function restore(file){if(!file)return;let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result),s=validateBackup(x);if(!s)throw Error();if(!confirm('Restore this backup? Your current Personal CFO data will be replaced.'))return;state=s;save();closeSheet(true);toast('Backup restored successfully')}catch{toast('Invalid or unsupported backup file')}};r.readAsText(file)}
 function csvCell(v){let s=String(v??'');return /[\",\n]/.test(s)?'\"'+s.replace(/\"/g,'\"\"')+'\"':s}
-function exportCSV(){let rows=[['Date','Type','Amount','Category','Note','Account']];state.tx.slice().sort((a,b)=>String(a.date).localeCompare(String(b.date))).forEach(t=>{let a=state.accounts.find(x=>x.id===t.accountId);rows.push([t.date,t.type,t.amount,t.category||'',t.note||'',a?a.name:''])});downloadText('personal-cfo-transactions.csv',rows.map(r=>r.map(csvCell).join(',')).join('\n'),'text/csv;charset=utf-8')}
+function exportCSV(){let rows=[['Date','Type','Amount','Category','Note','Account','From Account','To Account']];state.tx.slice().sort((a,b)=>String(a.date).localeCompare(String(b.date))).forEach(t=>{let a=state.accounts.find(x=>x.id===t.accountId),fa=state.accounts.find(x=>x.id===t.fromAccountId),ta=state.accounts.find(x=>x.id===t.toAccountId);rows.push([t.date,t.type,t.amount,t.category||'',t.note||'',a?a.name:'',fa?fa.name:'',ta?ta.name:''])});downloadText('personal-cfo-transactions.csv',rows.map(r=>r.map(csvCell).join(',')).join('\n'),'text/csv;charset=utf-8')}
 function exportReport(){let t=totals(),k=monthKey(date()),m=monthStats(k),st=budgetStats(k),safe=safeSpendStats(),f=recurringForecast(30);let lines=['PERSONAL CFO — FINANCIAL REPORT','Generated: '+new Date().toLocaleString('en-BD'),'','CURRENT POSITION','Liquid money: '+money(t.cash),'Assets: '+money(t.assets),'Debt: '+money(t.debt),'Net worth: '+money(t.net),'','THIS MONTH','Income: '+money(m.inc),'Expenses: '+money(m.exp),'Saved: '+money(m.saved),'Savings rate: '+(m.inc?((m.saved/m.inc)*100).toFixed(1)+'%':'N/A'),'','BUDGET','Budgeted: '+money(st.totalBudget),'Spent: '+money(st.totalSpent),'Remaining: '+money(st.remaining),'','SAFE TO SPEND','Safe to spend: '+money(safe.safe),'Emergency reserve: '+money(safe.reserve),'Remaining budgets: '+money(safe.budgetReserve),'','NEXT 30 DAYS','Expected income: '+money(f.income),'Expected expenses: '+money(f.expense),'Projected liquid: '+money(f.projected),'','TRANSACTIONS: '+state.tx.length];downloadText('personal-cfo-financial-report.txt',lines.join('\n'),'text/plain;charset=utf-8')}
 function wipe(){if(confirm('Delete ALL Personal CFO data from this phone? This cannot be undone.')){state=blank();save();closeSheet(true);toast('All data deleted')}}
 function openSheet(html){document.getElementById('sheetbox').innerHTML=html;document.getElementById('sheet').classList.add('open')}
 function closeSheet(force=false){if(!force && window._formDirty && !confirm('Discard this entry?')) return false;document.getElementById('sheet').classList.remove('open');window._formDirty=false;window._editingId=null;return true}
 function toast(s){let t=document.getElementById('toast');t.textContent=s;t.classList.add('show');clearTimeout(window._toast);window._toast=setTimeout(()=>t.classList.remove('show'),2200)}
-window.go=go;
+window.go=go;window.navigateTab=go;window.accountForm=accountForm;window.saveAccount=saveAccount;window.deleteAccount=deleteAccount;window.transferForm=transferForm;window.editTransfer=editTransfer;
+// Android WebView-safe primary navigation: use real click listeners instead of inline handlers.
+document.querySelectorAll('.nav button[data-tab]').forEach(function(btn){
+  btn.addEventListener('click',function(ev){
+    ev.preventDefault();
+    ev.stopPropagation();
+    go(btn.dataset.tab);
+  },false);
+});
 render();
 if('serviceWorker' in navigator && (location.protocol==='http:'||location.protocol==='https:')){navigator.serviceWorker.register('./sw.js').catch(()=>{});}
 

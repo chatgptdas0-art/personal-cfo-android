@@ -1,43 +1,22 @@
-# Personal CFO Android
+# Personal CFO Android v2.8.3
 
-## Stable baseline: v21.1 — Cash Projection Fix
+## Controlled update
+This package is based on the existing Personal CFO Android WebView architecture. It does not replace the finance app with a new implementation.
 
-This repository contains the existing Personal CFO Android project used as the stable baseline for controlled maintenance and future updates.
+### v2.8.3 changes
+- Fixed primary bottom navigation for Android WebView by using real DOM click listeners instead of inline navigation handlers.
+- Added touch-safe navigation CSS (`touch-action: manipulation`, explicit pointer events).
+- Kept Accounts functionality: Add, Edit, Delete, Transfer.
+- Added defensive normalization for malformed/legacy account records so Accounts rendering cannot fail because of null account entries or missing basic fields.
+- Kept financial-history deletion protection.
+- Preserved external backup/restore flow.
+- compileSdk 36 / targetSdk 36.
+- No machine-specific keystore path; release signing must be configured with the developer's own Play App Signing/release key in Android Studio.
 
-### Architecture
-- Android WebView wrapper
-- Existing HTML/JavaScript application in `app/src/main/assets/index.html`
-- Local/offline persistence in the existing app
-- No Kotlin/Jetpack Compose architecture
-- No Room database
-- No cloud backend
-- No AI dependency
-
-### Important baseline rules
-- Treat this repository as the source of truth.
-- Do not replace the existing architecture.
-- Do not generate a new finance app.
-- Do not replace the existing storage model.
-- Do not invent demo/sample financial data.
-- Do not change unrelated modules during feature updates.
-- Preserve existing user data and behavior unless an explicit change is requested.
-
-### Current baseline features
-- Dashboard
-- Accounts
-- Transactions / History
-- Budgets
-- Assets
-- Debt / Liabilities
-- Financial Commitments and payments
-- Recurring & Forecast
-- Cash Flow Calendar with projection breakdown
-- Financial Health
-- Money Simulator / Financial Digital Twin
-- Financial Memory / Context
-- Temporary Money
-- Backup / Restore
-- CSV / report export
-
-### Android project
-Open the repository root (the directory containing `settings.gradle`) in Android Studio.
+## Verification performed
+- Extracted package and inspected project structure.
+- Confirmed the ZIP root is a direct Android Studio project (`app/`, `build.gradle`, `settings.gradle`, `gradle/`).
+- Node JavaScript syntax check: PASS.
+- Node DOM-stub render test: Accounts page renders on initial Accounts tab and after `go('accounts')`: PASS.
+- Accounts UI contains Edit/Delete actions: PASS.
+- Gradle/APK/AAB build was not executed in this environment because Android SDK/Gradle executable is unavailable here.

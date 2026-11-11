@@ -1,0 +1,31 @@
+# Built-in Android Studio / Gradle outputs
+*.iml
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild
+.cxx/
+
+# Local configuration & environment
+local.properties
+.env
+.env.*
+
+# Keystores and signing credentials
+*.jks
+*.keystore
+keystore.properties
+
+# IDE / Android Studio files
+.idea/
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+

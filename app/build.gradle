@@ -1,5 +1,31 @@
 plugins { id 'com.android.application' }
 
-android { namespace 'com.example.personalcfo'; compileSdk 35
-    defaultConfig { applicationId 'com.example.personalcfo'; minSdk 23; targetSdk 35; versionCode 29; versionName '2.6.1' }
+android {
+    namespace 'com.example.personalcfo'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.example.personalcfo'
+        minSdk 24
+        targetSdk 36
+        versionCode 36
+        versionName '2.8.3'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            // Do not hard-code a keystore. Use Android Studio's
+            // Generate Signed App Bundle wizard for Play Store signing.
+        }
+    }
 }

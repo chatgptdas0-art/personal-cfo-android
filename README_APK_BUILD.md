@@ -1,14 +1,9 @@
-Personal CFO v21 — Money Simulator
-Version: 2.6.0 (versionCode 28)
+# APK / AAB build
 
-Open the inner project folder in Android Studio.
-Select your Android device and Run.
+## Debug APK
+Android Studio → Build → Build APK(s).
 
-New: Money Simulator / Financial Digital Twin.
-It is simulation-only: no transaction, account balance, budget, commitment, or asset data is changed by a scenario.
+## Play Store AAB
+Android Studio → Build → Generate Signed App Bundle / APK → Android App Bundle.
 
-Recommended test:
-1. More → Money Simulator
-2. Enter a one-time purchase amount.
-3. Try monthly expense and debt payment.
-4. Verify the result changes without changing Home, Accounts, or History.
+Do not put a personal keystore path in `build.gradle`. Keep the release key outside source control and use Android Studio/Play App Signing for release signing.

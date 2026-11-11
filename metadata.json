@@ -1,0 +1,8 @@
+{
+  "name": "Personal CFO",
+  "description": "Personal CFO mobile app for tracking expenses, budgets, accounts, transfers, assets, debt, commitments, forecasts, financial health, and backups.",
+  "offline": true,
+  "applicationId": "com.example.personalcfo",
+  "targetSdk": 36,
+  "minSdk": 24
+}
